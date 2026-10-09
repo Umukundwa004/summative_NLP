@@ -1,0 +1,641 @@
+id	tweet	label	length
+train_isizulu_00855	@username ay lelaqolo udlala ukuba igolo :'(	Abuse	44
+test_isizulu_00396	hambodlala no febelina wakho hehehe#uzalo	Normal	41
+test_isizulu_00274	@username iphumule ngokuthula ingulube encane ubaba unzimande	Normal	61
+train_isizulu_00397	imali ye promo iyamthenga umahosha, iyakhokha iyshumi, iyathenga ama champagne. its all money	Normal	93
+train_isizulu_02278	@username yazi ngahluleka kudala kabi to be sdudla 😂😂😂😂 angeke....   ngiphuza amanzi 😂	Abuse	86
+train_isizulu_02850	imfene zombili nje lezo... ##url	Normal	32
+train_isizulu_00523	sibonge ku mazulu ngokunika imarisburg u 3 points kuze kubuye ukuzethemba kubadlali be team of choice @username 	Normal	112
+train_isizulu_00375	@username hawu usekhona wena mgodoyi😳😳😳😳😳😳😳	Abuse	43
+train_isizulu_02938	@username mabesidlisa inyongo sobabiza amakula ##url	Hate	52
+train_isizulu_02990	mxxm umbuso ngiyamazi isitabane #mbuso	Abuse	38
+train_isizulu_01570	"@username fuseg wena msunu uyasebenza uzohola nje.!!!!!! ""🖕🏿"	Abuse	60
+train_isizulu_02066	slima ngempela lesi😂😂😂😂😂💀 ##url	Normal	31
+train_isizulu_01652	@username yini ekhalayo mlungu?	Normal	31
+train_isizulu_02163	using those other shangaan words to greet it felt like ngithuke inhlamba edlula umsunu kanyoko	Abuse	94
+train_isizulu_02762	@username umdidi yilonyoko wayeka ukukufundisa ukuhlonipha abantu wayeka ukukufundisa imbheko mhlathi wakho ##url	Abuse	113
+train_isizulu_01901	khamba uyokufa golo ##url	Abuse	25
+train_isizulu_02405	@username nawe usufana nalamabhunu abulala imfuyo yomakhelwane abamnyama, engena emasimini abo. i always thought you had a mlungu in you ##url	Normal	142
+dev_isizulu_00633	nyoni yezwe! 😂😂😂😂 ngiyakuthemba manje  ##url	Normal	44
+train_isizulu_00189	thina mazulu asimzumi umuntu, simqonda ngqo #zulu200 ##url	Normal	58
+dev_isizulu_00337	niyanyanyisa ngathi ningafa nonke lapho eoffice lenu this year mgodoyi ##url ##url	Abuse	82
+train_isizulu_01043	@username uthi usame kanjalo  kuqhamuke ingulube  no @username 	Normal	63
+train_isizulu_01210	dea ex ngivumele nje ngithi kuwe masimbakho. i thank you ##url	Abuse	62
+train_isizulu_02689	@username thina mazulu asiyenzi lento nx..	Normal	42
+dev_isizulu_00482	umsunu wenja nje.	Abuse	17
+dev_isizulu_00042	@username stufuza isende lakho	Abuse	30
+test_isizulu_00248	@username we bafo kanti ungowokugcina yini bafo 🤔🤔🤔 mayehamba ngilanda omunye , ngihlangana nomunye kwi taxi omunye emgwaqeni ngizihambela , omunye ngihlangana naye emall . bafo baningi nalabantu wena nje bhebha mayehamba ubhebhe omunye ...... ##url	Normal	249
+test_isizulu_00038	ngo ngamla aba ##url	Normal	20
+dev_isizulu_00405	@username ngihamb'indlel' estraight ungafunga ngesab'istabane ⚡️⚡️⚡️⚡️⚡️	Abuse	72
+dev_isizulu_00619	@username isende lendlela adv	Normal	29
+test_isizulu_00567	@username ngeke ngizoba bhebha ku njalo	Normal	39
+train_isizulu_01855	she said “asambe uyong’bhebha bhuthi” ##url ##url	Normal	49
+train_isizulu_01990	ujolelani uyi sdomu.. ##url	Normal	27
+test_isizulu_00098	a mazulu athembe lona, kanti nathi sithembe lona 🙏🏽	Normal	51
+train_isizulu_00522	"le nto yokuqabulana nisaxabana ngeke uyenze kwintombi yomzulu, uzomuzwa ekuthuka emlonyeni: ""mmmhm... mmhm... mgodoyi!"""	Abuse	119
+train_isizulu_01685	..... isiyalo sikayihlo,... umthetho kanyoko. ngoba kuyigoda elikhangayo ekhanda lakho nomgexo omuhle entanyeni yakho. prov 1:8,9.	Normal	130
+dev_isizulu_00477	tattooing your own name inob'nyoni phakathi.	Normal	44
+train_isizulu_01161	hulk inkomo fusegi.	Abuse	19
+dev_isizulu_00064	ibhunu nomyama ayisoze yaphela,,,, bukani nje ##url	Normal	51
+train_isizulu_02201	@username sthokoza uzimu ngloshlanu mampara week kugijima iimbaji kphela	Normal	72
+train_isizulu_00700	@username umi phezu kwethuna lo mlungu 🤪	Normal	40
+test_isizulu_00619	seku mele sonke sehlele isifebe esiyi one -____-	Abuse	48
+dev_isizulu_00260	@username umuntu e busy engidayisela ingulube esesakeni	Normal	55
+train_isizulu_00758	@username sengingaze nikhalele ibhunu kodwa🤔🤔	Normal	45
+train_isizulu_00110	ake nibuze abalaleli bazizwa kanjani ngaloludaba ibhunu lidliwa ibhubesi ekade lilifuye iminyaka eyishumi @username #wnb ##url	Normal	126
+train_isizulu_00712	first one good, the other two haikhona!! @username : @username istabane , inkonkoni , ungqingili”	Abuse	97
+train_isizulu_02924	@username amakula awasali ngasemva. ahlala ephakathi kubutsotsi nobumenemene. wether their involvement can be proven or not, bona bahlala bekhona ngoba banyolukile kakhulu and bangenza nantoni na for imali. very corrupt people those ones	Hate	237
+dev_isizulu_00033	"lol! ""@username : udakiwe mhlathi wakho rt @username : lol ayikho lento edanswa u black coffee. ngathi uncinzwa i anda"""	Abuse	119
+train_isizulu_00893	@username ngunyoko noyihlo slima masimba	Abuse	40
+test_isizulu_00033	ibhunu  elinsizwa  madoda ##url	Normal	31
+dev_isizulu_00207	i-outhy eyi sdudla or echubby angithembi. why uvumela uku controlwa amafutha not imali? 🧐	Abuse	89
+test_isizulu_00363	@username nah, ufundekakhulu mgodoyi 😂😂😂	Abuse	40
+dev_isizulu_00389	@username kokof msunu kanyoko ngeke sizwe ngawe golo layihlo 😊	Abuse	62
+train_isizulu_00203	@username hhayi voestek  golo likanyoko owumahosha waphinda wazala wena nawe futhi waba umsunu... sdoda siyayisho esinezimpethu esazala waphuma ubolile. i'll give you my address n angeke ungenze lutho. uzowukhomba umuzi onotswala mfana wami.	Abuse	241
+train_isizulu_01722	@username igolo lanyoko ifool	Abuse	29
+dev_isizulu_00291	@username achatha ngo lwandle amabhunu ase stellies 😀😀	Normal	54
+dev_isizulu_00104	wenja 🤣🤣🤣🤣 #uzalo	Abuse	17
+dev_isizulu_00565	@username ungijwayela umdidi wena shlama kodwa	Abuse	46
+train_isizulu_01069	@username noma yini ngamla😂😂😂😂 ##url	Normal	36
+train_isizulu_03049	manje abasho ukuth mlungu or darkie loyo basitshele nokuth izingane zakhe zifundaph usebenzaph to avoid all those people ##url	Normal	126
+train_isizulu_02053	as if nizawubuyisa nina you’re millie millie of the same bag umahluko lekota is clear uzithandela abelungu akayifihli njemgani bathakathi ##url	Abuse	143
+train_isizulu_00549	😂😂😂😂😂.. qhubeka ungikale ngamehlo wenja ##url	Normal	45
+train_isizulu_00944	@username ngyabonga thina mazulu isihambi sisiphatha kanje,asidlale ngenkotha wethu kuchazeke wonkumuntu. uliqhawe wena.	Normal	120
+train_isizulu_00013	@username ngathi imomozi echamayo 😂😂😂	Normal	37
+train_isizulu_00082	abelungu abakwazi ukudlala hhaybo fuck! ungabhoshela umuntu?? ubhoshe nje serious uthi uyadlala? ##url	Abuse	102
+test_isizulu_00108	@username éziphambili kimi ezoku ngangení  kwa mazulu kuma playoffs @username 	Normal	78
+train_isizulu_00875	uma uthenga umahosha wenza into oykhokhelile	Normal	44
+test_isizulu_00182	@username uyanya masimbakho 😂😂number 10	Abuse	39
+train_isizulu_02859	ub’nyoni nje lobu ##url	Normal	23
+test_isizulu_00608	@username uyadakwa wena slima	Abuse	29
+dev_isizulu_00244	@username awume kancane ngo febelina	Normal	36
+train_isizulu_01272	@username siyadelelwa abelungu namabhunu	Normal	40
+train_isizulu_00902	😂😂😂😂😂😂😂😂😂 fusegi msunu wakho ##url	Abuse	34
+train_isizulu_01752	uyasebenza u sililo. amabhunu afuna izinto zawo. ##url	Normal	54
+train_isizulu_02654	akekho umahosha omaziyo lapho oyi v.dot?rt @username : @username ngishap ##url	Abuse	78
+train_isizulu_02979	@username kudlala ingoma zama ngamla iya khinya	Normal	47
+train_isizulu_00576	@username omane ahlulwe yi bhebha uthule inkinga..	Normal	50
+train_isizulu_01543	inqguza yodwa nje leyo mxm  ##url	Abuse	33
+train_isizulu_02162	"hawu ""@username : isifebe size ngomlalo."""	Abuse	41
+train_isizulu_01295	eee akamphoxanga kanje umshengu ephixa mazulu 😂😂😂ngiphelile insini #bochithekabugayiwe @username #ukhozifmdrive	Normal	111
+train_isizulu_01926	@username isifebe esingenanembeza lesi bafowethu udoti wokugcina ngci💔	Abuse	70
+train_isizulu_01937	inkawu ihleka enye isphongo… ##url	Normal	34
+dev_isizulu_00563	ungas'vumeli isimo sakini sikwenze umahosha😔	Abuse	44
+test_isizulu_00155	ungayikhipha ingulube odakeni kodwa soze uyiyekise udaka	Normal	56
+train_isizulu_01663	"ey mina usis engangimudla waaay back wayengthuka during the sex..""ha! asanda uyidla kanje inkomo yam msun'kanyoko"" mase ngimbuza bengthukelani aphike ibhadi😂😂😂 ##url"	Abuse	165
+train_isizulu_00092	usuncuke umahosha nge phutha🔥🔥 ##url	Normal	36
+train_isizulu_00473	ngivele ngashaywa amahloni ngibona iyellowbone yonke ihlulwa ulwimi lasemzini🤣🤣🤣🙆🏽‍♂️🙆🏽‍♂️ ##url	Abuse	96
+train_isizulu_01572	@username and then? mhlathi wakho	Abuse	33
+train_isizulu_00942	@username ufunani umqhele ekhanda mazulu?	Normal	41
+train_isizulu_03020	wamnandi bhiya ngathi inqguza yesfebe ☺	Abuse	39
+train_isizulu_00943	@username kunasidingo sini ukukhuluma isingisi nengane yakho ekhaya just because ifunda ku model c? siziyisela imfundo enconywana kulezikole not language.	Normal	154
+train_isizulu_01444	@username hhaiy angithi uma umdidi efika uzofika ehamba ngezinyawo bese behamba ngale yakhe imoto. vele lento yonke ididi nje.	Normal	126
+train_isizulu_03074	iphelile mfethu rt @username iphelile ingulube?	Normal	47
+test_isizulu_00495	ngwebedla istabane nje	Abuse	22
+train_isizulu_02143	ngikwenzeni kodwa mlungu wabantu? 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂 ##url	Normal	56
+train_isizulu_02263	@username uyadelela msunu kanyoko.	Abuse	34
+test_isizulu_00383	@username kmele ngoba wislika wenja uvele uzogeqa amagula ngelika joji ukhuluma amasimba awsile uyislinyana.. ##url	Abuse	115
+dev_isizulu_00047	sdudla noma1000 🙏🏿🙏🏿🙏🏿🙌🏿🙌🏿😭😭😭🙌🏿🙌🏿🙌🏿🙌🏿🙌🏿🙌🏿	Normal	41
+test_isizulu_00545	lol well... odokotela nonjiniyela bafeba so much... imomozi notshwala bakuqala sebebadala	Abuse	89
+train_isizulu_01934	"hahahahahahahahahahahaha! ""@username : uthi uqeda kushaya kunuke inkomo ikhwapha izinqa neynyawo ##url"	Normal	102
+train_isizulu_00862	@username wena sfebe sengane ezacile engondlekanga kahle ungake ngoma zokufikisa lana othi uyakhona maybe you should start focusing on maintaining that body ngoba uyaphephuka msunu ungandinyeli iyobonana 🤟🏼	Abuse	206
+train_isizulu_01077	kusho inja nayo ifuna ukuk'bhebha idlule. 😂😂😂 ##url	Normal	51
+train_isizulu_00454	ikula lakithi 😅 ##url	Hate	21
+train_isizulu_00999	@username nawe masimbakho sizwe. 😃	Abuse	34
+train_isizulu_02835	"yey wendoda awazwani nodoti""@username : uzoth'uyaphapha ngik'dabule nge mpama shlama sikanyoko"" lol eyi amanye amajitha awophuma silwe yerr"	Abuse	139
+dev_isizulu_00168	''nina bakamjokwane kandaba.nina belemb'eleq'amany'amalembe.nina boteku lwabafazi bakwanomgabi''.....awu madoda kumnandi ukuba inzule.	Normal	134
+train_isizulu_01056	lol kohlwa njenge 'sdomu eskoleni ##url	Normal	39
+train_isizulu_01556	@username bhebha umamanfundisi ke	Normal	33
+dev_isizulu_00014	"""uhlekani lo mulungu?"" ##url"	Normal	28
+train_isizulu_00668	@username wenanja yeka propaganda mahlebe kanyoko, ungafaki abe sotho kumanyala enu	Abuse	83
+test_isizulu_00400	#tweetlikeakhona zodwa ke tikiline	Abuse	34
+dev_isizulu_00354	"😂😂😂😂""@username : kungcono thina sesaphuma  ""@username : liyashisa leli langa likhipha istabane kwicloset"""""	Abuse	106
+train_isizulu_00322	isitabane syadabukisa bafwethu geotologist uzohleka ###url #kingsomnala	Abuse	71
+dev_isizulu_00571	😂😂😂c'mon uythenga kanjan ingulube isesakeni? 💁 ##url	Normal	52
+train_isizulu_00864	intwana zitshelwa ngo “homophobic” zyaqhuma even though zivuma ukuth istabane zis’thinte ey’nqeni “zisidlalisa”.. disciplinary committee yathi alithethwe abe smame leli cala lingaphezu kwayo.😂	Abuse	192
+dev_isizulu_00452	"at these auditions, do they say ""bhebha lomuntu sibone ufenda kanjani""?"	Normal	71
+train_isizulu_00643	i wonder lamenzani unkulunkulu isende aze alishwabanise kanje lona kodwa😂😂😂😂😂	Normal	77
+train_isizulu_01148	mosquito uyang'bhebha 😭😭😭	Normal	25
+train_isizulu_01650	robot ubaqedile ocheese bakwi tinder..	Normal	38
+train_isizulu_02529	@username abekho ocheese boy kwazulu wepalesa.	Normal	46
+train_isizulu_02788	"uthi ""ikula lishaye umuntu ngezembe""😂😂😅 ##url"	Hate	45
+train_isizulu_02739	@username the fact that you took the time time to analyse the brand of my clothings shows you've got enough time yokushaya indlwabu shlama, ikho uhlobise ngengquza kwi avi yakho.	Abuse	178
+dev_isizulu_00321	@username loool ugade ungazali so isitabane	Abuse	43
+train_isizulu_00586	@username liyephi izwi mhlathi wakho?	Abuse	37
+test_isizulu_00294	angeke kuphele ukucwasana baba ngoba uma ngibuka kahle abelungu basenamaqhubu futhi abazimisele ukuyiyeka lento @username 	Normal	122
+train_isizulu_01262	but angilona ibhunu 😂 ##url	Normal	27
+train_isizulu_01412	"uyanya! ""@username : ngiza lapho next week uzok ulikhothe ""@username : ngibuze ididi lakho shlama : ubuzwe ubani? ""_g: nidliwe!"	Abuse	127
+train_isizulu_01747	yekelani ukudlisa amadoda, ndlisani abelungu babuyise umhlaba! ##url	Normal	68
+train_isizulu_00097	makusenza inja kamadala igubutile yafoja ngam ekangaka umanguban umsunu kanyoko qwala ##url	Abuse	91
+train_isizulu_00024	eyi akobe kuwu friday ama cool kids no tikiline baphume ngobuningi babo	Abuse	71
+train_isizulu_01662	khuphuuuuukaaaaa wethu 💪 ungangenz'slima😊 ##url	Normal	47
+train_isizulu_03058	@username zinto zayzolo udlalile mlungu @username ##url	Normal	55
+train_isizulu_03071	@username nawe uyahlanya shlama	Abuse	31
+train_isizulu_01621	bhebha ngapha ingane ilapha embhedeni?..savagery.!	Normal	50
+test_isizulu_00653	uphenyo istabane #sengishilo	Abuse	28
+train_isizulu_02246	"lol rt @username : wenja! “@username : idla imshayanguzo yakho uyeke inkani. ""undeaniable: izong'mashisa leflu.""”"	Abuse	113
+dev_isizulu_00525	imfene ayizboni makopa... ##url	Normal	31
+train_isizulu_02751	@username mom would be like “wenja! oh kodwa nkosyami ngaze ngasizala isifebe somfana” 😂	Abuse	88
+dev_isizulu_00618	@username hamba mlungu phesheya lapho uphumakhona ,masimbakho	Abuse	61
+train_isizulu_01809	@username #msw @username robert my nickname mgodoyi angazi umkhulu wayecabangani 🤦🏾‍♂️🤦🏾‍♂️ let’s go ##url	Normal	106
+train_isizulu_00075	@username and then? mhlathi wakho	Abuse	33
+train_isizulu_01726	"@username lmfao i was tempted to write ""kwazisholo isifebe"" 😂😂😂"	Abuse	63
+train_isizulu_00222	khona ethi sdudla uyangnukela @username ##url	Abuse	45
+train_isizulu_02027	"nezihlathi ngathi izinqa zomdlwane ""@username : @username hehehehe, ur tryin too hard...relax ngokuba iyellowbone"	Abuse	113
+train_isizulu_01138	konje last year december i was arrested for beating up someone who called me ngo msunu kanyoko. took me for granted ngoba ngimfishane wathi uzongshaya 🤦🏽‍♂️..	Abuse	158
+train_isizulu_03059	amaxoki! amonyozela njalo uma ebona abelungu, uma ebona abantu abamnyama akhuluma nge white monopoly capital ##url	Normal	114
+train_isizulu_01366	@username uyaphapha wena shlama	Abuse	31
+train_isizulu_00299	uqaphela ubuza abelungu ngesizulu ukuthi anisazi yini isingisi 🤣🤣😂 #isibaya	Normal	75
+train_isizulu_01668	@username ididi ke lelo ongitshela lona. okusalayo buphethwe ukuqina nje. suswabe ngoba suzwe indaba ka bhuti yenkinga abe bhekene nayo. ungumuntubwesilisa nje, akufuneki ukuphapha ngathi une momozi. awukhule ngoko mqondo uyeka kuzofaka endabeni zabantu. gede mani. 🤣🤣🤣	Abuse	269
+test_isizulu_00527	uyaphapha wena msunu nenkukhu ezizacile ##url	Abuse	45
+train_isizulu_02221	@username ya wena mhlathi wakho 🤔 uthiisizulu sinjanike?	Abuse	56
+train_isizulu_02615	@username udakiwe msoon kanyoko	Abuse	31
+train_isizulu_02597	lol usuqalileke shlama🙈 ##url	Abuse	29
+train_isizulu_00455	@username uwena obilayo ubofunda ukuvala umlomo wakho coz awazi slima	Normal	69
+train_isizulu_02681	"inhlunu kanyoko leyo edliwa e rank ""@username : gwayi wakho ona papa @username """	Normal	80
+train_isizulu_02004	@username ey ukhuluma igolo ke manje wena muntu.	Abuse	48
+train_isizulu_01164	nyoni emhlophe yakwa dlamini @username , unwele olude ndlovukazi 🎂	Normal	66
+train_isizulu_01503	@username ku defendwa ban?? umthethosisekelo nje uyahlonishwa mlungu wena yin ucabange ukuth indiya lingaphezulu iliphi sela eli defendwayo	Normal	139
+dev_isizulu_00078	"""usuyangshintshela ngoba ususethekwini"" weh futshek shlama!"	Abuse	59
+train_isizulu_02074	uyinja ngoba uyazi angnalo ##url	Abuse	32
+train_isizulu_00341	home time... thina esingasebenzi ikula ke lol	Hate	45
+test_isizulu_00004	@username nathi sinabo omahosha emzansi aba affordable why should i pay imali engaka ngomuntu engingamazi usisi uya clamer ufuna abalahlil	Normal	138
+train_isizulu_00894	asembi ngathi ingulube ##url	Normal	28
+test_isizulu_00646	balele balele umama nobaba ubhebhana nami msunu kanyoko #memulosongs ##url	Normal	74
+train_isizulu_01372	@username kwa phela ukuba u 2 slice.... 😅 usukhulile 😂😅😂	Normal	56
+train_isizulu_01036	lo ulethe imomozi nje kphela #mnakwethu🙆‍♀️	Normal	43
+dev_isizulu_00156	@username masimbakho × 10289577 wena mbuzi!!!	Abuse	45
+train_isizulu_01339	@username amazulu angenaphila wena msunu kanyoko nihlulwa ipolitiki usufaka amazulu golo😡	Abuse	89
+train_isizulu_00979	@username msunu wakhe must be cancelled ubhebha izingane🤣🤣	Abuse	58
+train_isizulu_00306	ungabi islima, slima. 🙌🏽🤣🔥 ##url	Normal	32
+dev_isizulu_00028	into engiyincanywayo ngewinter ngiphenduka iyellowbone. ##url	Normal	61
+train_isizulu_02213	@username nizenza abelungu inkinga	Normal	34
+train_isizulu_00257	@username uyalisaba ibhunu ukulixosha	Hate	37
+train_isizulu_01808	"lol hawu ""@username : chama kodwa ungamithisi ""@username : bhebha kodwa ungachami?""@username : feba kodwa ungabanjwa"""""""	Abuse	119
+test_isizulu_00018	ningababulali (heya..) ningababulali (heya) nani bulal' obaba..  ningababulali (heya..) * esho ebhaka amabhunu* ##url	Normal	117
+test_isizulu_00253	@username lol ayi neskhathi sokuthenga ingulube esesakeni asisekho saphela kudala let alone esokuncenga ke	Normal	106
+train_isizulu_00976	okoniwe ngomlomo, kulungiswa nge mfene ebsuku 🦍 finish.	Normal	55
+train_isizulu_00288	@username istabane sika thixo ##url	Normal	35
+train_isizulu_02579	@username udakiwe msunu kanyoko	Abuse	31
+train_isizulu_00637	dakiwe nina rt @username : batshele!!! rt @username : indoda engakwazi ukuhlahlela inkomo or imbhuzi, yisitabane leso	Abuse	117
+train_isizulu_00325	@username bhebha. kuzo thuleka	Normal	30
+train_isizulu_01165	@username akwaziwa okwanonophalisa ingulube🐷🐖	Normal	45
+dev_isizulu_00414	dakiwe nina rt @username : batshele!!! rt @username : indoda engakwazi ukuhlahlela inkomo or imbhuzi, yisitabane leso	Abuse	117
+train_isizulu_00790	@username uyisilima ngempela. ingqondo ayisebenzi, akunabantu la kuwe. ayisekho into engisazoyikhuluma nawe, qhubeka uveze ubuwula bakho, mhlathi kanyoko.	Abuse	154
+train_isizulu_00456	bamb'ithambo entombini......heshe babhemu😜 ##url	Normal	48
+dev_isizulu_00410	"eh eh amabhunu ""@username : usho lawa angathengwa zingane? ""@username : lamaford ranger engathi awokuhamba ehlathini or eyntabeni❤"""""	Normal	132
+train_isizulu_01553	konakele ngathi kushada imfene namhlanje....	Normal	44
+train_isizulu_01940	@username uyinja kalife 😂🙌	Normal	26
+train_isizulu_00694	@username nomakungathiwa izinto ziyafana, amasende lawa 😂🤣 (in vusi ximba's voice) 🤣😂	Normal	85
+train_isizulu_01549	@username #chillaz wadlala sdudla ngikulalele kuyabanda la ngaphezulu eskhobho zikuhambela kahle izinto sky the limit mina ngithemba ukuthi nami ngizowina #happy birthdaykaizerchiefs	Normal	182
+dev_isizulu_00316	49th bday dad ❤!  radebe, mthimkhulu, bhungane, ndlebe ezintle zombini, mafuza fulele njengelifu lemvu, zikode, mashiya amahle, mashwabada owashwabadela inkomo nenpondo zayo, sigoloza esimehlo abomvu esijonga umntu ibengathi siyamjamela!  song: @username #superman #cassper ##url	Normal	279
+train_isizulu_00922	uthi usahleli naye nihleka kamnand 😊uvele ubone ngathi uhleka wena umsunu wenja😫😭amantombazan amalulwane🦇impela😭	Abuse	112
+dev_isizulu_00491	"""@username : @username isafuquza kangcono eyakho imomozi these days."" yew bish i am tryina change ningibuyisela emuva..."	Normal	120
+train_isizulu_00792	@username msunu kanyoko olenga incili 😡	Abuse	39
+train_isizulu_01734	ngakhumbula ibhunu lami 💕😍 ##url	Normal	32
+train_isizulu_01548	@username wish bengikhona e #mcabangohighschool langafunda khona sbonge nyoni emaphikophiko ngokuzovakashela lezinganezinhle nezizimiselayo #ukhozicares #trendangemfundoyakho #imfundoiyadlisa @username luhamba phambili emadlankala nrb 93.4 mhz  @username 	Normal	255
+dev_isizulu_00039	@username uyanya mgodoyi 😏	Abuse	26
+dev_isizulu_00284	isende litheni ? ##url	Normal	22
+test_isizulu_00087	@username felix ukhuluma ididi awazi lutho nge kzn	Abuse	50
+test_isizulu_00627	udlala ngomsebenzi mfethu “@username : urantie igolo”	Abuse	53
+dev_isizulu_00141	@username ubiza umama nge njunju wena shlama awhlukane nama phoyisa yin ufuna ukugada shona khona	Abuse	97
+train_isizulu_01255	@username buka la wena sdwedwe sesfebe msunu kanyoko ungazongidakelwa mhlathi wenja. ubhonyelwe yin golo likanyoko	Abuse	114
+train_isizulu_01432	@username ngiyshaye nje ingulube ezoyithatha lol	Normal	48
+dev_isizulu_00359	isifebe sokugcina uanonymous yezwa 😂😂😂😂	Abuse	39
+test_isizulu_00416	@username ku zacile lokuya ko mfana nginga vese ngimphule nje🤣🤣🤣	Abuse	64
+train_isizulu_00408	@username igolo lelo olikhulumayo	Abuse	33
+train_isizulu_01375	balele balele ubaba nomama,ubhebhana nami msunu kanyoko.... 😂😂😂😂😅😅😅😅😅😂😂😂😮😮😮😦😢😣😣😣😦😰😩😟😟	Abuse	85
+train_isizulu_00088	no ways usapholisa imomozi iyashisa @username ##url	Normal	51
+train_isizulu_00638	inkawu idlala ngesikhwebu 😂😂😂 ##url	Normal	35
+test_isizulu_00212	@username 😂 aibo shlama😂😂	Abuse	25
+train_isizulu_01892	@username awuse sdudla ntombazane ufresh kakhulu kabi nkooooosi	Normal	63
+train_isizulu_00038	@username nansi ingulube ingnonela bo 🤨 ##url	Normal	45
+train_isizulu_00364	lol ulaka “@username : sdudla unyoko -_____-”	Abuse	45
+train_isizulu_01649	mfeth’auwsende inqguza lapho sigcwale..	Normal	39
+train_isizulu_00650	@username isende lendlela bafo 🤦🏽‍♂️	Normal	36
+train_isizulu_01309	siyaziphuzela shwele thina. ithuba nje elincane siyaphuza. akudlali ukulandela amabhunu!	Normal	88
+test_isizulu_00234	ukhuluma igolo nje😂 ##url	Abuse	25
+train_isizulu_02714	yho masimbakho 😂😂😂 ##url	Abuse	24
+train_isizulu_02002	ayiphele msunu kanyoko.....you need to behave your fucken white crayon...lendoda iyakhala ngokushonelwa yingane wena uyasineka slima ##url	Abuse	138
+dev_isizulu_00320	okay ididi u-mlindo, ngeke ngiphinde ngimulalele 😡🤬😡  ##url	Abuse	59
+train_isizulu_02402	@username igolo lelo olikhulumayo	Abuse	33
+dev_isizulu_00194	@username ingulube inobhekeni, bru!	Normal	35
+test_isizulu_00508	🚶 yibo labantu abafuna ukubuyisela amabhunu esihlalweni... ##url	Normal	64
+train_isizulu_01319	"#africanparentsinameme spank to discipline, child cries and says ""masimbakho"" ##url"	Abuse	83
+train_isizulu_00587	@username ...  lokwe nyoni unako lapho...	Normal	41
+train_isizulu_00991	@username nawe msunu kanyoko no yihlo owakushiya.	Abuse	49
+train_isizulu_01355	@username kokof msunu kanyoko ngeke sizwe ngawe golo layihlo 😊	Abuse	62
+train_isizulu_00808	@username nyoko wakho nawe angithi. ##url	Normal	41
+train_isizulu_02769	akwaziwa okwanonisa ingulube 😂😂😂 ##url	Normal	38
+train_isizulu_01424	"imagine 18snvl written in zulu  ""ishumi nesishiyagalombili, ucansi, ukusantuza ididi,nokusakaza ikiwi,impi kanye nolimi oluqojeme   #cyrilramaphosa #fellowsouthafricans ##url"	Normal	174
+test_isizulu_00651	"thanks ""@username : ey kodwa umjita olalela igospel unob'nyoni phakathi"""	Normal	72
+train_isizulu_02721	@username ubuza amasende umdala.	Normal	32
+train_isizulu_02713	lolsrt @username : this micasa mlungu ngabe uyazibhebha izingane if he was black, manje umlungu nokubhayiza... ##url	Normal	116
+train_isizulu_00099	@username sphukuphuku sebhunu sezokhuluma umgqatha @username indaba yeqanda lenjelwane. msunu	Abuse	93
+train_isizulu_02768	nibahle mama no mgodoyi wakho. ##url	Abuse	36
+train_isizulu_02646	exactly. isende lendlela ##url	Normal	30
+train_isizulu_01648	usuyaphapha ke manje mhlathi wakho ##url	Abuse	40
+train_isizulu_02631	@username stabane ndini ungangixhapheli	Abuse	39
+train_isizulu_02174	usnoopy omncane uyinja! fusegi	Abuse	30
+train_isizulu_01908	@username ey wena mhlathi wakho...😂	Abuse	35
+dev_isizulu_00335	@username 😂 😂 😂 isende lendlela 🤞🏽	Normal	34
+dev_isizulu_00493	"sbwl ukulanda order yam ekfc ngihambe nobabe🙈 nasingena kungene abotsotsi abay2 bathi ""zonke phansi!""🔫🔫 akhale ubabe😭 utsotsi oy1 athi ""yewena sfebe ngithe phansi!""🔫 libile igazi lam😠 ngisukume ngikhulume ngalevoice yam yakarambo ngithi ""yey wena shlama ubiza bani ngesfebe?"	Abuse	274
+train_isizulu_02270	masimbakho yezwa 😂 ##url	Abuse	24
+train_isizulu_02481	ukube ngise thekwini bengzoya ka msunu wenja 😭 ##url	Abuse	52
+train_isizulu_00156	@username ngazo sdakelwa soku punchisa njenge airforce yakho malebe	Abuse	67
+dev_isizulu_00139	bengithi ifile mfene yakhe nje ##url	Normal	36
+test_isizulu_00405	@username ungibone ngijola neh sdudla ungibulale🤣	Abuse	49
+test_isizulu_00592	@username kante sijolela uku bhebha?	Normal	36
+train_isizulu_02177	@username usungenile awboni sdomu	Normal	33
+train_isizulu_02276	@username ngiyalisaba isende 🤣 ##url	Normal	36
+train_isizulu_00470	"@username izifebe in the comments euphemising ubufebe as ""dating is not about sex"". oksalayo, ubufebe. ##url"	Abuse	108
+train_isizulu_02676	dear @username ungumgodoyi lalela, uyinja!!  🚮	Abuse	46
+train_isizulu_00763	@username mhlathi wakho. msunu ka nyoko.	Abuse	40
+train_isizulu_02644	ubani leso slima? 🙄 ##url	Normal	25
+dev_isizulu_00276	@username ay this is too much experimenting for me..........ngiyayeka lenqola uma isla angilikhothi ididi mina, angishuthekwa munwe weeee! dlulani sengimdala webantabami ##url	Abuse	175
+train_isizulu_00208	ngyathemba oyellowbone bafundile isfundu ku mshoza, gada ungabi njengaye nawe...	Normal	80
+train_isizulu_00439	ngath kwakwakhiwa imfene.. was’jika sekuphakathi umdali isnqumo ##url	Normal	69
+train_isizulu_02296	"nope: ""@username : lol""@username : @username bayayidla ingulube"""""	Normal	65
+train_isizulu_00867	@username coz thina masilele wena ugibela imfene makhanya 😁😁😁	Normal	61
+dev_isizulu_00519	bebedependent on a government that’s never been able to cater to them. ayiyekwe nje lento. mazulu amahle kyonisiza ukuthi nizisukumele izinto eziphathelene nozulu, ngoba niyovuka ngelinye ilanga esengekho wonke lamasiko enithanda ukwaposter la kwi tl.	Normal	251
+train_isizulu_00744	😂😂😂 usapholisa imomozi yakhe @username ##url	Normal	44
+train_isizulu_02764	@username he eh mlungu, angikhulumi nawe. qale ubuze abangani bakho ukuthi ukuphi #tebogondlovu then come into my mentions.	Normal	123
+test_isizulu_00379	@username inkawu imunandi ipholile	Normal	34
+train_isizulu_00716	we figured this shit out long ago.mayelahlile ngamla ngimenza njalo ngayo yonke indlela bese odarkie basbiza skoteni ##url	Normal	122
+test_isizulu_00642	yewena malebe kanyoko ungazongijayela kabi, asazani. mhlathi wakho...i’m also zulu if the need be ##url	Abuse	103
+test_isizulu_00300	@username beautiful igolo msunu kanyoko	Abuse	39
+train_isizulu_02694	leyo mgodoyi isibulele 🤞🏾😡 ##url	Abuse	32
+test_isizulu_00429	@username ngokwesilungu, ukushela umuntu wesifazane ukumhlukumeza, bathi yi women's harassment, woooo, lafa elihle kakhulu, lobu model c obugcwel izwe......thixho😭😭	Normal	164
+train_isizulu_02637	😑bangixoshile izolo kwiprayer. ngithandaze ngaze ngabiza usathane ngomdidii wenja. bengithi ngyajula ngomkhuleko 😒😒😒	Abuse	116
+test_isizulu_00368	nxa wenja fusegi ##url	Abuse	22
+train_isizulu_01610	@username kwa ngamla 😞	Normal	22
+train_isizulu_01628	@username isifebe asihlali ematrasini ...... thatha polinsky 🔥🔥🔥🔥🔥🔥🔥 ##url	Abuse	74
+test_isizulu_00393	manginga bhebha ke nje iyobe isishayile..	Normal	41
+train_isizulu_02179	vuleka mazulu sekunjalo...	Normal	26
+train_isizulu_01750	@username uthola nethuba lokugibela imfene ungaphazanyiswa muntu🤣🤣🤣🤣	Normal	68
+train_isizulu_02612	@username sabona ngawe lwabishi phela awuphethe thina mgodoyi	Abuse	61
+train_isizulu_02267	@username senizo bhebha ikhwapha 😷	Normal	34
+train_isizulu_02290	i don’t mind sidlale ngokuthukana but “msunu kanyoko” angeke shem🙆🏾‍♂️akusadlalwa clearly	Abuse	89
+train_isizulu_00938	@username ungatshi amasende sani.	Normal	33
+dev_isizulu_00346	aniyekeni ukudlwengula iyanyanyisa lento eniyenzayo madoda bakhona omahosha hamba uyothenga	Normal	91
+train_isizulu_02552	inkawu zihlekana iphongo.. ##url	Normal	32
+train_isizulu_02286	hhave kucoba ukubuka imovie ovele uyibone nje zisuka ukuthi ingamampunge. sidlala abelungu nje besenza izingane ezinye izikhathi	Normal	128
+dev_isizulu_00660	lol konje umngani wami waye bhebha isangoma	Normal	43
+train_isizulu_00559	@username utsho kwigolo lika nyoko!	Abuse	35
+train_isizulu_01213	*dead* istabane ugogo wakho  #kasistories ##url	Abuse	47
+dev_isizulu_00385	@username ay angisazi kodwa lowababa baze bambiza ngomthakathi bathi uzobadlisa imfene😂😂😂	Normal	89
+test_isizulu_00180	aniyeke isitabane sodumo 😂😂 ##url	Abuse	33
+test_isizulu_00065	@username “awulibuke, ngathi iteabag” 🤣🤣😭😭	Normal	42
+dev_isizulu_00363	":""d rt @username : isifebe esingekho 'picky' ---&gt; ""lonke isende liyawasha"""	Abuse	77
+train_isizulu_00621	kahle nje ukuba ikula ##url	Hate	27
+train_isizulu_00263	"""konje usuhlalaphi manje...?""  uyamuzwa nje umuntu obuzela imfene yakubo ama directions.. 🤔🤔😩😩😭😭😭 ##url"	Normal	103
+train_isizulu_02545	@username mina ngiphuza inkawu? 😒 ##url	Normal	39
+train_isizulu_02103	#model c tweet rt @username : lol the saying is ngilala nezinkukhu rt @username : ngathi uhlezi uyinkukhu, uzela (cont) ##url	Normal	125
+dev_isizulu_00371	what the different between umahosha nawe?? umehluko udayisa ngokunganakekile ##url	Abuse	82
+train_isizulu_02413	"👀 ""@username : nami “@username : seng'funa uk'bhebha 😔”"""	Normal	56
+train_isizulu_01754	isende lelo abang’shadise bona phela.. ##url	Normal	44
+test_isizulu_00186	😂😂😂... slima angikuyeke. ##url	Normal	30
+test_isizulu_00554	ay majita, nibamba amasende imini yonke bese uthi take 5 unya ##url	Normal	67
+test_isizulu_00509	@username thina mazulu siyacwasana kakhulukaz uma usebenza office mhlampe kwahr omunye umunt umbon engeluth,nguwe umuntu@username 	Normal	130
+train_isizulu_00682	@username usungenile awboni sdomu	Normal	33
+train_isizulu_01371	"slima esinye 😂😂😂 @username : 😂""@username : 😂😂😂😂 ##url"	Normal	53
+test_isizulu_00290	@username haybo wenja, why kmele ungkhumbuze????! ##url	Normal	55
+train_isizulu_01944	@username vele uthayela.. a bashiye  inkomo behlawule ngayo	Normal	59
+test_isizulu_00512	engabe sebephelile o compliments of the what what emsebenzini because bekumele ngivule izolo kodwa angiyanga... nanamhlanje ngisahlabe yona ingulube	Normal	148
+train_isizulu_00919	@username ngivele ngibe mubi ngathi imfene 🤣🤣🤣🤣	Normal	47
+train_isizulu_02910	lo mlungu uyakhuluma bo	Normal	23
+dev_isizulu_00108	"@username haha bazonishaya njalo o"" model c"""	Normal	44
+dev_isizulu_00554	@username mr ngubane if  ungayobangu ngamla kuzalo kungabamnandi yaz	Normal	68
+dev_isizulu_00449	@username ungenaphi uzuma lapho wena slima somgodoyi...nx😏	Abuse	58
+train_isizulu_01141	"""bathi awusaphuzi unuka ingculaza msunu wakho. khathi ubhebha kwakumnandi mhlathwakho"" 😂😂😂"	Abuse	90
+test_isizulu_00346	@username umsunu ka nyoko lo uwukhumayo, masende akho	Abuse	53
+train_isizulu_00416	"usuke esenkingeni ke loyo ""@username : istabane esimbi :("""	Abuse	58
+train_isizulu_00374	@username eish! isende lendlela....! so, uthini ubaba ka28 weeks? lol	Normal	69
+train_isizulu_00844	@username 😂😂😂😂imfene ephethe isbhamu	Normal	36
+train_isizulu_02587	@username kuvele kube ngathi inkawu ke lapho amashiya awabonwa =d	Normal	65
+train_isizulu_01367	@username dudlu madolo kanyoko anhthukiwena kepha ngthuka lentenghluphayo ngawe mi❤️thatha celuyiphathekahle🤦	Normal	109
+train_isizulu_00998	ok'salayo msunu wenja ##url	Abuse	27
+train_isizulu_02392	@username koko ndimande,me ingulube eburhole emhlazini.	Normal	55
+test_isizulu_00125	nasi istabane singphaphela ekusen kanje	Abuse	39
+train_isizulu_01230	"weee bro ngeke lunge nje ""@username : @username indla uval'umlomo lol!khona zokhulphala verl akwaziwa okwanonisa ingulube ha ha ha"	Normal	130
+train_isizulu_00021	uyondutsu ngumsunu kanyoko ##url	Abuse	32
+train_isizulu_02102	khona into ephilayo efana nawe nyoko? ##url	Abuse	43
+test_isizulu_00208	@username sisonke sdudla sohlukana ngalelo hour gijima nenamba bigboss #chillaz ngithi shout out esahlumbe nasesunvelly ngisezola	Normal	129
+train_isizulu_01151	bhebha uthule.. ave ungiphoxa💔 ##url	Normal	36
+dev_isizulu_00038	ungas'vumeli isimo sakini sikwenze umahosha😔	Abuse	44
+dev_isizulu_00462	"""uhlo uthand'ocheese..."" #datemyfamily"	Normal	38
+dev_isizulu_00185	aibo abelungu bayavela nabo kwipapgeld 😂 ##url	Normal	46
+train_isizulu_02071	kwa sdudla eqolweni ❤️ ##url	Normal	28
+train_isizulu_02780	@username lol 😂😂😂😂 usebenzela ikula moss wena ,	Hate	47
+dev_isizulu_00034	@username uzoyshiya kuwe imfene ubelinda..	Normal	42
+test_isizulu_00617	inja yasema khaya lol uyinja ugqoka e dunns malume. kopela kimi phela ama lebuli ##url	Normal	86
+train_isizulu_00348	do you want my location?! ngzokukhahlela ungangjwayeli ididi ##url	Abuse	66
+dev_isizulu_00353	ingulube olundi e north kzn  izale nangu umuntu oyingulube ake kukhulunywe nozigadayo ngiyacela kunuka santungwana la!!! ##url	Normal	126
+train_isizulu_01582	@username ubutabane,ngqingili nkonkoni ipipi epipini🤣🤣🤣 chocolate box and inkomo yeshlama	Abuse	89
+train_isizulu_00552	khohlwa njenge sdomu eskoleni! ##url	Abuse	36
+test_isizulu_00269	@username zuma yena waye yini and why wakhulula ibhunu elabulala izizwe esimnyama? yabuya wali khokhela every month ? nisheshe nikhohlwe yazi.	Normal	142
+train_isizulu_02065	"@username funa athi ""injani inkomo'm"	Normal	36
+train_isizulu_02944	so ubodile lo mlungu #isibaya	Normal	29
+train_isizulu_02049	bhebha uthule ...	Normal	17
+train_isizulu_01905	makusenza inja kamadala igubutile yafoja ngam ekangaka umanguban umsunu kanyoko qwala ##url	Abuse	91
+dev_isizulu_00333	ufuna isende lami😂😂😂😂 kodwa brutus #thequeenmzansi	Normal	50
+test_isizulu_00434	wola ngamla😂😂🙏🙏💪🏾💪🏾💪🏾💪🏾 #isibaya	Normal	32
+train_isizulu_00589	@username 😂😂😂😂😂 sengimungenile, sekusele ashiye leya nyoni yakhe 😂😂	Normal	67
+train_isizulu_01785	@username ey wena msunu wenja omanzi! igolo umuruti mfana wami.   yikho nekhala liphatshakile, uhamba unake iy’ndaba zabantu	Abuse	124
+train_isizulu_00996	@username “nawe njabulo uyahlupha ngalabo model c bakho. buka manje bazodlani abantu?”	Normal	86
+train_isizulu_00150	ubufebe ebuzobakhona kulama pens down party smh	Abuse	47
+dev_isizulu_00001	@username ungumsunu wenja wagolo phuma kithi	Abuse	44
+train_isizulu_01585	@username unyoko uzila mathambo egolo lika nyoko	Abuse	48
+test_isizulu_00138	indoda ekunika imali ikwenza umahosha, iyeke👐	Abuse	45
+train_isizulu_01307	"""2 slice wani? letha ukudla kudliwe "" 😂😂 ##url"	Normal	46
+train_isizulu_02277	@username yewena shlama uneke amasende lapho syafa syaphela la emigwaqeni, ulibele ukusineka didi ##url	Abuse	103
+train_isizulu_01014	"inkinga bayanamathela... rt""@username : bhebha udlule rt thee_budda ngzoyenzani ingane esanuka uchalk? :/"""	Normal	106
+dev_isizulu_00585	msunu wakhe 😒 ##url	Abuse	19
+test_isizulu_00542	kodwa why omahosha benganga ama essential workers? 🤔 ##url	Normal	58
+dev_isizulu_00516	@username mpho asimbongele truter ngokuzitholela umsebenzi eqenjini la mazulu @username esithemba ukuthi uzokwazi ukuwabeka kwelinye izinga elifunwa ngu chairman walo #primetimesport	Normal	182
+train_isizulu_00414	"""uzobhebheka wena"" kwaysholo u kim 😂😂😂😂"	Normal	39
+train_isizulu_00164	@username ku worse at free state ngoba ayikho kakhulu imisebenzi,abantu badlala amabhunu amaplazini	Normal	99
+train_isizulu_00447	@username usho ingulube mkhaya😅	Normal	31
+dev_isizulu_00622	bathong! what's going on i hope @username and @username are ohk 💀💀💀 i'd say as'phuzeni rather bit it's not safe also 😭😭😭  bafwethu aswayekeni 📍  futhi let's all go to sandton siyophiza umlomo wenja once for moral support 🥲🤧😩 ##url	Normal	230
+dev_isizulu_00584	“ungithinta amasende”  “angyona ingquza mina”   aybo bamenzani umjita. ##url	Normal	76
+test_isizulu_00569	@username mahle amasende akho🤣	Normal	30
+train_isizulu_00639	“ngicela ungidonsisa u 2 pulls” kusho intombi wena sdomu ocabanga ukuyikhiphela izinkomo zakini withele nge nyongo😳…	Normal	116
+dev_isizulu_00127	"uzwe i couple ixabana uzidlulela uzwe usisi ethi "" ngakuthola ongena lutho nje ngalo shlama odlulayo."" 😭"	Abuse	104
+train_isizulu_01559	"ayihlangane ngempela ""@username : komidi @username “@username : awhlanganise i-tt yesi zulu phela mhlathi wakho, kanti what's your"	Abuse	130
+train_isizulu_01965	elika baba itiye ulenza ngephunduka teabags ungalikhiphi uzozikhiphela yena ufuna ukuqale elikhame lize linuke engathi imbiza iteabag 🤮 ##url	Normal	141
+train_isizulu_00765	@username lol shame ungazongixhaphela igolo wena u msoon unyoko	Abuse	63
+train_isizulu_02400	ngathi ibhunu leplazi... 🤣🤣 ##url	Normal	33
+train_isizulu_01741	nangoke usisi wam ubuya manje eksen uthi kade ebanjwe amabhunu😥😥✋🏾 ##url	Normal	72
+train_isizulu_01882	"""hau uwena owakhe lendlu?"" (understandable)  ""hau kanti usebenzaphi?"" (mhlathi wakho)"	Normal	85
+train_isizulu_00741	angisenawo umlomo wokukhotha inkomo😩…	Normal	37
+train_isizulu_01480	@username ngisola ngathi nalo gal ube cheater phela kuthiwa istabane esilala namanye amadoda iyafa inzalo	Abuse	105
+train_isizulu_01841	@username lol ila makwerekwere agcwele itheku nje mfethu and bayawashaya yezwa	Hate	78
+train_isizulu_01421	@username he did! 😞😞he called wathi asiye kulezindawo zami ze fork and knife. kwaba mnandi ekungcineni wathi angfune mgodoyi eduze kwakho🙄🙄hawu sekwenzekeni? 'ngyakuthanda and ngizimisele ngawe '🤔🤔😜😜	Normal	199
+train_isizulu_00590	@username ngake ngayihambisa for my son kodwa ngiyazisola ngoba waqede wafa lowo mgodoyi	Abuse	88
+train_isizulu_03042	nalelidlozi othembele kulona ngzolenza istabane ... abdus	Abuse	57
+dev_isizulu_00476	@username usdayisile umhlathi wenja 🤣🤣🤣🤣🤣😅 ##url	Abuse	48
+dev_isizulu_00317	"loki - ntshebe ""animk'usize 40 wengxaza ingampintshi"" ""ofun'imfene nanguntshebe man thwebula"" ""ihair food uyifak'esuswini ngemistake 😂😂😂😂"" 🔥🔥🔥🔥🔥#ntshebe"	Normal	152
+train_isizulu_02812	wayeyinkosi yesizwe sabatlokwa abesotho ow’bamokhalong “sondezi” ilabatlokwa abadla izinkomo zamahlubi, babezinze ngasencadu, ilezonkomo angithi isilo udingane owathuma amabhunu ukuthi awayozilanda, afikake amabhunu enkosini us’gonyela abe esemlutha. . . ##url	Normal	260
+train_isizulu_00284	ingulube ayilusabi udaka bafo. ##url	Normal	36
+dev_isizulu_00213	akekho umuntu oshaya isende njengale nceku abathi wudumi mkokstad🔥... uyalivithiza ikhekhe &amp; dribble.	Normal	105
+train_isizulu_01027	"""amabhunu izinja"" --steve biko   #sarafina"	Hate	42
+train_isizulu_02250	"""@username : awuthi ngenze itiye ngo-shibhoshi...""rt expiriencer lv akwaziwa okwakhuluphalisa ingulube lmoa!"	Normal	108
+train_isizulu_03044	@username uma uthe mfene ngikhipha konke enginakho	Normal	50
+train_isizulu_01244	@username isimilo sahhamba nosathane. ubufebe budlangile kwelihle lika mthaniya. inkomo senadiza ngayo ungathi amakhekhe omshado. mxm!	Abuse	134
+test_isizulu_00643	@username ubuza igolo nje	Abuse	25
+train_isizulu_01376	@username mina ngisho kuwe mdidi oneyihlama ..ubosula mauqeda ukunya ..mgodoyi	Abuse	78
+train_isizulu_01090	"yabo nje wathi ""m*u*u kanyoko"" 😭😭 kuvele kuthi angiphalaze😭😭💔 ##url"	Normal	67
+train_isizulu_00246	😂😂😂😂 usile lo mlungu 😂😂😂 #wtftumi	Normal	33
+train_isizulu_00971	akuma promo umsunu kanyoko ##url	Abuse	32
+train_isizulu_00880	@username “awulibuke, ngathi iteabag” 🤣🤣😭😭	Normal	42
+test_isizulu_00484	"nezihlathi ngathi izinqa zomdlwane ""@username : @username hehehehe, ur tryin too hard...relax ngokuba iyellowbone"	Abuse	113
+train_isizulu_02700	"""ninek'amasende"" 😂🤣🤣 uyahlanya ungizwe ##url"	Abuse	44
+train_isizulu_00453	@username slima ndini ngingakusanganela kanjani ngingawazi nombombo wakho	Abuse	73
+train_isizulu_03050	@username kahle tikiline suyamfuna!	Abuse	35
+test_isizulu_00533	@username inja ye game,ngamla👌😁 ##url	Normal	37
+train_isizulu_00191	ubufebe bhuti  nciphisa ##url	Abuse	29
+train_isizulu_01923	mama dlamini zuma unyuse i voice...uzoxabana kakuhle no mlungu wam omkhulu.	Normal	75
+train_isizulu_02993	@username wena hlezi ufuna imomozi 😪	Normal	36
+dev_isizulu_00347	@username akafiki kowakho olenga igolo elinezimpethu nommenso ❤️	Abuse	64
+train_isizulu_00995	eplazin = amabhunu	Normal	18
+test_isizulu_00119	@username ukuphi wena mhlathi wakho	Abuse	35
+test_isizulu_00447	@username ubamba iyellowbone chef	Abuse	33
+train_isizulu_01003	i want to sleep kodwa ngizothini ku mlungu??? 😭😭	Normal	48
+train_isizulu_02875	kahle rt @username : usho lona okuphakelayo? rt intemnandi: ngafika ka mlungu, ka mgodoyi, ka njandini...	Abuse	105
+train_isizulu_01107	"@username 😂😂😂 ""ngithi wenja"""	Normal	28
+dev_isizulu_00352	eish yazi imfene kagogo ngyabona ayisangiboni lokhu ngifikile ingbheka kabi🙄🙊🤔 ##url	Normal	84
+train_isizulu_02916	stabane ligama likatatakho lomzi. ##url	Abuse	39
+dev_isizulu_00080	@username masimbakho love 🤣😂😂😂🤣😂🤣😂🤣🙂🤣😂🤣🙂🤣😂	Abuse	42
+train_isizulu_01265	@username uzolijwayela. u used to think “shlama” unzima🤭🤣😂😂	Abuse	59
+test_isizulu_00264	@username ngathi istabane nje lomfundisi mbumbulu	Abuse	49
+train_isizulu_02950	angsafun ukudla iyfebe zamanye amabhari.not because im thinking for them im just protecting my aura. i know nizothi nawe owakho bayamudla. abamudle uma efuna yena bese mina angshiye phansi.. sex is a very dangerous sport physically and spiritually.. ngbhayzele ke wena uzobhebheka	Abuse	280
+train_isizulu_00591	indlela engozela ngayo kwa mlungu ngisola ukuthi kukhona abangi sebenzisayo ebsuku kodwa imina ongazi	Normal	101
+train_isizulu_01483	“wathini wena ?” “ngathi sanbonani bonurse bomsunu kanyoko” 😭	Abuse	61
+train_isizulu_00676	uyinja bafo 👏👏👏👏 ##url	Normal	22
+train_isizulu_02590	@username 😂😂😂😂😂😂udakiwe yinike wena mfene	Normal	41
+train_isizulu_01687	"ayihlangane ngempela ""@username : komidi @username “@username : awhlanganise i-tt yesi zulu phela mhlathi wakho, kanti what's your"	Abuse	130
+train_isizulu_02175	@username lalela wena ungasifaki ekunyeni kwakho yezwa 😤ngampela thina mazulu singenaphi la? okusalayo  kuthi huuu uthanda ungathandi 😂	Normal	135
+train_isizulu_00772	@username sabaukubiza inkawu ngoaunty?but its cool imnandi leyo angithi hlale usideshela acid.	Normal	94
+dev_isizulu_00552	unezingane ezinhle shlama. ##url	Abuse	32
+test_isizulu_00299	@username uthi akuyona umhlaba kanyoko	Normal	38
+test_isizulu_00095	ayina jockey makhelwane - imfene ayifundelwa ukugitshelwa	Normal	57
+train_isizulu_02056	sengathi ungamitha msunu ##url	Abuse	30
+dev_isizulu_00341	isizulu is so embarrassing: 1. setswana -go nyoba ✅  2.sesotho -go kota ✅ 3. sepedi -ngim'nyobile ✅ 4. xhosa -ndimtyile ✅ 5.isizulu -bhebha❌	Normal	140
+train_isizulu_02072	zobuya nini inkomo emathafeni???	Normal	32
+test_isizulu_00116	@username masimbakho. ngiphi mali	Abuse	33
+train_isizulu_02828	"bafwethu...all that's happening has really gotten to me. mengihlangana nokusa mlungu kuvele kuthi ""xhifi"" 😫😫"	Normal	108
+train_isizulu_02729	referee mhlathi wakho	Abuse	21
+train_isizulu_01811	wandile ubutabane baqhela le 😂😂😂 #generationsthelegacy	Abuse	54
+train_isizulu_02715	@username 😂 ewe bawo inkomo kufuneka udlale ngayo	Normal	49
+train_isizulu_00487	ungamulentuzi ke nalo wena nyoni ##url	Normal	38
+train_isizulu_02458	njenge sdudla esihluleke kugym @username : i have nothing to lose .	Abuse	67
+train_isizulu_01162	@username imomozi, izinqa, etc ayi cha siyavelelwa 😫	Normal	52
+train_isizulu_02055	@username hambo buza intombi yakho slima	Abuse	40
+train_isizulu_02918	@username isifebe sikanondindwa ngunyoko rubbish your bloody shit	Abuse	65
+train_isizulu_00884	aniyekeni ukudlwengula iyanyanyisa lento eniyenzayo madoda bakhona omahosha hamba uyothenga	Normal	91
+train_isizulu_02811	angiyihleki ke mdalo engahlekisi inhlinini nje angiyihleki khohlwa njenge sdomu eskoleni ##url	Abuse	94
+train_isizulu_00580	ungaqomi nje imfene	Normal	19
+train_isizulu_02793	@username uthi umthakathi akayeke ukuthakatha, bese ayenzenjani imfene yakhe.	Normal	77
+dev_isizulu_00583	@username but awukwazi kuba isifebe ngomzimba wakho because someone decided kuba lihule if wena awusiyilo....😊	Abuse	110
+train_isizulu_01721	"isfebe esinesgcwagcwa?""@username : oomf isifebe esenyanyisayo yazi"""	Abuse	67
+train_isizulu_02962	ndaba yamathamncane nje nobuso ubucijle ngathi inkawu fseg leyonto.	Abuse	67
+train_isizulu_00901	@username ungabe usapholisa maseko phuma uchele ngentelezi mawube nenhlanhla uzoybona imfene🌚🙈😀😂nokthi igitshelwe ubani	Normal	119
+test_isizulu_00064	@username into ehlekisayo ngalo mlungu, ukuthi uyakholelwa edlozini ##url	Normal	73
+train_isizulu_02191	#ngekeuphiwekonke ubuso bungaba mpofu kodwa inqguza izoba mnyama.	Normal	65
+train_isizulu_02936	why umbabhe amasende ? ##url	Normal	28
+train_isizulu_01045	@username cha uma isadlala ngamashangane khohlwa njenge sdomu esikoleni!!!!	Normal	75
+train_isizulu_02395	@username inkinga yakho yini wena anc? noma amazulu? anc iphethe izifundazwe ezi 8, zonke zicwilile, inhlekelele yodwa, nalapho ithina mazulu njalo. hhayibo 😱 ake nisiyeke, niphume kithi. nani yibani amazulu uma nithanda, kanti soneni, sadlani kabani, wakuphi nabantu?🤔	Normal	269
+train_isizulu_02884	@username uthini masende kanyoko	Abuse	32
+train_isizulu_01624	"yaxhapha lomshishi ""@username : lol creative""@username : igololelo rt @username : word...""@username : igolo lelo rt @username : first"	Abuse	133
+test_isizulu_00537	siyobe siqala nqa!! ngey'ngane zenu ukuthuma amakula emakuleni ##url	Hate	68
+train_isizulu_00356	a mazulu lawa intombi ushelwa iqome lana  wooooh  khulumqke sibone kuthi awuzukuqoma yin ##url	Normal	94
+train_isizulu_02819	@username qala ngomsunu kanyoko	Abuse	31
+dev_isizulu_00154	eban amakula ayavalwa ekasi vele?	Hate	33
+train_isizulu_02409	"uzobhebheka, akadlali ululo ""@username : @username rt @username : mention your celebrity crush"""""	Normal	96
+train_isizulu_01277	kwaaaaa))) singazi yini kodwa rt @username : @username ungazela ididi? ##url ##url	Abuse	82
+train_isizulu_01793	"lol yayinjani inkomo ""@username lol mina ingane engangiyncinza isiyisona rt @username : lol konje umngani wami waye bhebha isangoma"	Normal	131
+train_isizulu_01560	kungenisile ukuba istabane these days	Normal	37
+train_isizulu_03057	@username lol uyadelela njalo wena. ngathi ibhunu lase western cape	Normal	67
+dev_isizulu_00546	@username uyinja nxa!! 😤	Abuse	24
+dev_isizulu_00398	ngisola ukuthi kunesandla se mfene phakathi😔 it's not even lunch yet ##url ##url	Normal	80
+test_isizulu_00078	😂😂 uyinja shame mfethu ##url	Normal	28
+train_isizulu_00446	@username inkinga nje wazali slima sesdomu esingena nhlonipho anamahloni nokusbiza ngengane yakhe, who said twitter into yeyngane anyway	Abuse	136
+train_isizulu_01631	@username ngisenawe sdudla sangempela @username #chillas	Normal	56
+train_isizulu_02006	@username voestek golo likanyoko elibolile, owumahosha waphinda wazala inkonkoni eyfana nawe... sdoda siyayisho esinezimpethu esazala waphuma ubolile	Abuse	149
+train_isizulu_02741	finally!!! langena ibhunu! 😭❤️	Normal	30
+dev_isizulu_00338	ingulube ngeke uykhiphe odakeni	Normal	31
+train_isizulu_02915	mabehleli babheda kakhulu ngoba bafuna nabanye bag ane babi kanti mane bhebha or bhejwa baba right ##url	Normal	104
+train_isizulu_01806	iphani untsiki imfene, aloye openly	Normal	35
+dev_isizulu_00234	ungazokhuluma amasimba wena shlama ##url	Abuse	40
+train_isizulu_00711	blue pill ngihambe ngiyothenga omahosha echina ##url	Abuse	52
+train_isizulu_00220	@username uyang’bonisa mnganami 😂😂😂 kuthiwa kukhonanyana khona ubufebe kusistaz akazame kakhudlwana nje 🙆🏻‍♂️🤣 ##url	Abuse	116
+dev_isizulu_00045	@username ngithe mana mlungu omnyama 😏😏😏😏	Normal	41
+train_isizulu_00617	@username 😂😂😂😂usho amasende kayihlo abolileyo a green, nobuso bojwabi ##url	Abuse	75
+train_isizulu_02408	walibhala ididi nkunzmalanga, yazi wanya ngokukhulu ukuzimisela ##url	Abuse	69
+train_isizulu_01616	@username ibhunu phela leli🙄🙄🙄	Normal	30
+train_isizulu_01196	uthi uvakashile kwa bae uzwe mawakhe ethi mkhombiseni imfene izomjwayela ##url	Normal	78
+train_isizulu_00528	@username ngiyazibongela. ngika mlungu😂😂😂🤦🏽‍♀️	Normal	46
+train_isizulu_00888	udlala ngomsebenzi mfethu “@username : urantie igolo”	Abuse	53
+train_isizulu_02470	@username ikhona nxaki apho msunu musa nje ukuqhina malebe waphapha wena	Abuse	72
+test_isizulu_00069	pres zuma: sho mfana, hlale wazi ukuthi angikusabi. ngelusa mina.  mbeki: ngiyazi bhuti, ( 💭 ndizomfakela amabhunu lo)  😂😂🤣 ##url	Normal	129
+train_isizulu_01153	amabhunu wakho 😂 ##url	Normal	22
+dev_isizulu_00426	@username uphendula igolo 🤏🧠	Abuse	28
+train_isizulu_02724	@username yoh besonqamulela emaplazini amabhunu. besengsaba ukuthi sodutshulwa nje okulandelayo	Normal	95
+train_isizulu_01594	uma uthenga umahosha wenza into oykhokhelile	Normal	44
+train_isizulu_03079	@username uyinja kodwa sbali 😂😂	Normal	31
+train_isizulu_01286	asiqhume, sichathe, siphalaze mazulu.. ezinye izinto zethu zibanjwe ukungazenzi lezinto. sigcabe siqine!	Normal	104
+train_isizulu_00065	"yabona ke lol ""@username : lol ubani ongavuma ukuthi udla i 2 ""@username bese nithi nidla ama 10 la ""@username : lol nihamba ni bhebha nje bolova"	Normal	145
+test_isizulu_00043	nguwe, wemama, nguwe kwamele utshele ingane ubufebe yabufunda kuwe	Abuse	66
+dev_isizulu_00134	vandag ngiyo omelikhekhe lase makishini ngithe mangifika broer wam' ngathi sdudla kai one ladlali is kwaphuma bantwana	Normal	118
+train_isizulu_02106	"uzobhebheka sisi""@username : @username #avilove soooo cute **,"""	Normal	63
+train_isizulu_01859	"""@username : @username ukube imfene zinemali, ngabe amantombazane ahlala ehlathini manje."" i'd rather cry in a bentley than a bicycle"	Normal	133
+train_isizulu_00672	@username heshe nkunzie liyabuza ikhaza lithi ungubongakhi ??	Normal	61
+train_isizulu_02178	@username he he he uzoboshwa wena mhlathi wakho	Abuse	47
+train_isizulu_02883	"""ngisanda kuthola manje nami recently"" ngamla, hayi isilungu nesizulu, smh"	Normal	74
+train_isizulu_02802	magumede sawubona aze asihlukumeza amaphoyisa asemandeni ngolweshlanu ngabo2 ntambama ezosifuna utshwala abechitha kwasani achithe nentelezi esichela ngayo ekhaya njengoba sihlushwa imfene abewu15 ahlulwa amasela endaweni  ahlulwa a abulala @username 	Normal	251
+train_isizulu_01431	"lol akagcwali ubhuthi wakho rt  ""@username : when my lil bro says angpheke uphuthu ukhathele irice yena uzoze abe istabane edla irice .."	Abuse	136
+dev_isizulu_00507	"ichilo ""@username : ibhadi ke lelo""@username : istabane ""@username : usubone banike""@username : ngaaluqala kambi usuku"""""""""	Abuse	122
+train_isizulu_02548	@username oh yeah sengiyabona besengidukile, i hope lisekhona ikhekhe, if lingasekho sengiyodla inkomo, i hope yona isekhona.	Normal	125
+train_isizulu_02324	him:tsek, msunu ka nyoko me: usho wanyoko umsunu owashela emkhukhwini kwasinda lona ngoba belimanzi  he will learn never to push me again!!	Abuse	139
+train_isizulu_02317	@username ngamla and makhumalo ❤️ when 20:00 was 20:00	Normal	54
+test_isizulu_00228	#masimbakho  ka capital letters 😅	Abuse	33
+train_isizulu_01953	""" kahle wena mhlathi wenja "" ##url"	Abuse	34
+test_isizulu_00427	"lool ""@username : lmfao rt @username : oyellowbone bathanda ama front seat ezimotweni zolova ngathi izinja zabelungu..."""	Abuse	120
+train_isizulu_02493	"uyanya ke manje rt @username : yeka indlwabu wenja ""@username : umqala ubuhlungu ngathi nginyelile yazi"""	Abuse	104
+train_isizulu_02428	@username niythanda kabi imomozi ##url	Normal	38
+train_isizulu_01449	amakwerekwere awabuyele ngakubo. ayawubulala umoya wethu futh awavalile amathuba!!!	Hate	83
+train_isizulu_00464	golo lakho 😂😂😂 @username 	Abuse	25
+train_isizulu_00210	bathini abelungu benu ##url	Normal	27
+train_isizulu_02328	"bhebha. wosule. uthule. udlule. ""@username : bhebda uthule rt @username : bhebha udlule"""	Normal	88
+test_isizulu_00386	@username hhawu uma sekushaywa abe bemasha yini manje malungu ka khongolose@username 	Normal	85
+train_isizulu_01805	@username she annoyed me that one,nomlomo ngathi imomozi kade ihlatshwa	Normal	71
+train_isizulu_02847	qoma ntombi ngafa inhlamba kanyoko.	Normal	35
+train_isizulu_00260	umuntu ethi akayifuni intombi ephuzayo aibo wenja kuyafuthiswana yini kini ##url	Abuse	80
+test_isizulu_00153	ave nimkhotha ididi uyogelbhi 😷	Abuse	31
+train_isizulu_02836	@username ungangijwayeli wena shlama.	Abuse	37
+train_isizulu_01475	@username phambili ngesintu sethu mazulu phambiliiiiiiiiiiiiii	Normal	62
+train_isizulu_00536	@username kodwa sengathi sekuzogijima imfene emini	Normal	50
+train_isizulu_00618	"kwangathi ulate""@username : ngisaya ka mlungu"""	Normal	46
+test_isizulu_00470	@username yewena malebe akho ungabonya yeva...@username uyamuva lochamu?	Abuse	72
+dev_isizulu_00517	bhebha uthule zamo.. ##url	Normal	26
+train_isizulu_01473	asinakhipha @username mlungu otheni lo	Normal	38
+train_isizulu_00166	abanye abantu la benza ngathi abazi kuthi imfene skhule kthiwa eyokthakatha. manje they're busy telling us about an innocent baboon, shem 😕😕	Normal	140
+train_isizulu_02256	5 years from now sobe sithuma amakula emakuleni 🥴🥴🥴	Hate	51
+train_isizulu_00767	umfazi wendoda eqotho uba sdudla	Normal	32
+train_isizulu_02418	"nx😂😂 ""@username : sazama ukuzibulala istabane esabhunyelwa ngopende ##url"	Abuse	73
+train_isizulu_02301	@username qala ngomsunu kanyoko	Abuse	31
+train_isizulu_00434	"satlonyela sfebe samatanyula kanyoko ashishiriza ngama sperm ""@username : spare us. please.  ##url"	Abuse	98
+train_isizulu_00562	@username ayingi phathanga kahle lendaba. awunayo imfene engaba vakashela kodwa? ##url	Normal	86
+train_isizulu_00292	ave nimkhotha ididi uyogelbhi 😷	Abuse	31
+train_isizulu_00950	@username rematch! that all esikufunayo mgodoyi mxm	Abuse	51
+dev_isizulu_00600	hhawu newcastle siduma ngezinto ezimbi🙈 omahosha abangaka😳 ##url	Abuse	64
+test_isizulu_00611	angeke sizwe ngani ke thina mazulu isithembu yiso yiso once...ohlulwa ilokho hambe ayofa @username sisonke kulento. le ntombazane sizoyibizela @username ayiphinde futhi ngoba ifuna ukuthengisa umculo wayo ngathi. ##url	Normal	218
+train_isizulu_00683	@username yini wena? yazi sizwe nizenza abelungu	Normal	48
+dev_isizulu_00173	@username vele covering breasts into esayfunzwa abelungu😂 ##url	Normal	63
+train_isizulu_02829	@username ngyaysaba indawo enamahlathi uzothi usaphezu komdavazo ubone inkawu ikushayela izandla	Normal	96
+dev_isizulu_00526	@username lol uvele ubone ukth imfene nenkawu kufanele kuzwane🤣🤣🤣	Normal	65
+train_isizulu_02275	lomsunu osebenzisa my account golo lanyoko	Abuse	42
+train_isizulu_02705	"mlinde alale then grab his balls🍒 bese uthi ""yess madolo kanyoko uban uzinhle?😑😂😂"	Abuse	81
+train_isizulu_02058	@username musani ukudlala ngabantu abanywama. baphi abelungu? nidlala ngabantu ngoba bangasebenzi maan ##url	Normal	108
+train_isizulu_01130	inkomo ithi yes kodwa wena uthi no. usathane udlala ngawe	Normal	57
+train_isizulu_02999	"lol mxm ""@username : kwathiwa asandisane. ""@username : bazo meter ""@username : aba complaini. ""@username : bazoni bhebha ke namuhla."""	Normal	133
+dev_isizulu_00509	mina angizithandi ezinye intlanga shame, e'skakhulu abelungu namakula.	Hate	70
+train_isizulu_00542	@username nijima nabo ngamla vele😩👊🏾	Normal	36
+train_isizulu_00287	kuthi ngiysacaze menghamba nogogo eyohola and her pension mates beze kthina on some 'aw mazulu unomfana omuhle kanje, uyaphila nkhwenyana?'	Normal	139
+train_isizulu_02176	aksiyo ngisho inja ezele la....imfene uqobo lwayo ##url	Normal	55
+dev_isizulu_00654	busquets mhlathi wakho😡	Abuse	23
+train_isizulu_02881	the time i used to buy igqe e butterworth ngangichatha ey ngibanyisa omahosha ngokungachami	Normal	91
+train_isizulu_02016	“once wa bizwa nge ntombi yomfwethu ebrayini uyi slima” #kwaazande	Abuse	66
+test_isizulu_00251	soapies these days kugcwele abo ferbs(febelina)	Normal	47
+train_isizulu_01774	@username yaz phela umuntu uhlezi kahle, but heyyyyi naba oyellowbone basho ukungdidisa ngithi ngsakhala ngabo bavele baveze isinqa into eyibhadi.. kant u love wam ungphethe kahle so mabame kancane bangangdidisi	Abuse	211
+test_isizulu_00230	umuntu uzoqinisa kakhulu kwijimi manje khululeka. ngiyabonga sdudla mnganami ##url	Normal	82
+train_isizulu_01824	golo elimanzi masende kayihlo, maleve alengayo, ungangixhapheli mina, show yourself gwala elinya amanzi ##url	Abuse	109
+train_isizulu_00383	"""int' oyaziyo ukulengisa amasende nje."" ##url"	Normal	45
+dev_isizulu_00551	@username sdudla sangempela gwala omkhulu nice  mix 100% @username #chillaz	Normal	75
+train_isizulu_02478	bathi asivaccinate, manje sebezosi phuca udecember 😭😭   ucyril igolo.	Abuse	69
+test_isizulu_00195	"thol'ukuthi bamshaye with one of those ""hamba stabane ndini"" lines, kwakhala impama emva kwalokhu. #mduduzimanana"	Abuse	113
+train_isizulu_01915	"kdala ngalthenga ichina ""@username : uzofa ungay'dlanga inkomo yaphesheya vele?"""	Normal	80
+train_isizulu_00107	@username haha😀🤣🤣 khohlwa njenge sdomu eskoleni🙅‍♂️🙅‍♂️	Abuse	55
+train_isizulu_00718	what if abelungu bas’thakathile🤔	Normal	32
+train_isizulu_02342	@username sbu i date guys kodwa mabethi ba straight ngiyabatshela kuthi ba gay  so mulala nomunye umfana usuke u gay noma ngafihla noma ngathi uzozwa i taste usuke u gay ubutabane lobo kusho mina inkonkonikazi eyou ngqingili we qhikiza 😍💕🏳️‍🌈	Abuse	242
+train_isizulu_01931	"""ninek'amasende"" 😂🤣🤣 uyahlanya ungizwe ##url"	Abuse	44
+test_isizulu_00375	i rather have umfazi oyivila kunikthatha imfene ekhuthela, ngdelelwe amajita ngomubiza wempilo yam yonke never	Normal	110
+train_isizulu_02540	ezintwana ke zingayakhela inkawu ngenja ipirates , remember maluti college? ##url	Normal	81
+dev_isizulu_00332	indoda ivuka igqoke usiyasebenza. igown eyoswidi wabafana abakhonze ukneka amasende lisile ilanga. ##url	Normal	104
+test_isizulu_00610	#isidlosasekuseni @username kodwa akuve ingiqeda le clip lakhona uncebz ethi usaba kabi ukubiza igama isitabane 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣ngichazwa impendulo vele ngiphele👌👌👌👌👌	Normal	160
+dev_isizulu_00302	imfene zokuthakatha 😂😂😂 ##url	Normal	29
+train_isizulu_01826	@username mhlathi wakho, man! 😂😂😂😂👌	Abuse	35
+dev_isizulu_00596	ningamangali  ngoba ngi'sdudla xem!!!!!! @ monsterlus b ##url	Normal	61
+train_isizulu_00086	ingulube uma ibhukuda adakeni yona ayiboni inkinga ngoba vele udaka lusegazini kuyo, udaka luyimpilo kuyo. ingulube ayihlukani nodaka soze..	Normal	140
+train_isizulu_02632	@username ingulube lezi ?	Normal	25
+train_isizulu_00874	@username azifebisani, they assist isifebe sibeyilento sifuna bayiyo	Abuse	68
+dev_isizulu_00143	@username fusegi msunu wakho	Abuse	28
+test_isizulu_00007	@username isende lendlela guys.	Normal	31
+test_isizulu_00187	ukhuluma ididi wena ##url	Abuse	25
+train_isizulu_00513	true supporters amasende akho ##url	Abuse	35
+train_isizulu_02611	@username lol amasende ngiwabamba kanje ##url	Normal	45
+test_isizulu_00624	ndikuncamile @username , uyinja sikhulule!!! 📸🔥🔥🔥🔥🔥 ##url	Normal	57
+train_isizulu_01187	#isitabane awumuhle neze lomkhuba akuwona neze umdlalo lona ##url	Normal	65
+train_isizulu_00419	@username uyinja mahlobo 🙌🏾	Normal	27
+train_isizulu_01150	@username kusenjalo sdudla sangempela ngizipholele nawe @username #chillaz	Normal	74
+train_isizulu_01110	@username ididi lakho iphara	Abuse	28
+train_isizulu_01988	"izifundiswa uzozizwake sezithi ""ubuqaba mubi ngobhozo""fuseg nyoko"	Abuse	65
+train_isizulu_00529	@username mgodoyi bekezbulala ngechampions beer 🤣🤣🤣	Abuse	51
+train_isizulu_01927	nize ningavumi ukuthengwa ngo zibandlela malungu ka khongolose. wakwenza e nasrec ningavumi manje.	Normal	98
+test_isizulu_00183	"i really need to send mfundi vundla an open letter rt""@username : ndunu must be nice ""@username : le stabane esiwu-senzo sesiyafeba futhi"	Abuse	137
+test_isizulu_00006	aksiyo ngisho inja ezele la....imfene uqobo lwayo ##url	Normal	55
+train_isizulu_02553	uswidi wodwa lo uswidi wodwa lo bo voetsek!! uzobhebheka wena!! uswidi wodwa lo hayi wena x 2💃🏼💃🏼 voetsek uzobhebheka wena!!💃🏼	Normal	126
+train_isizulu_02809	@username wenja! anginamali 😂😂😂😂	Normal	32
+train_isizulu_02397	"@username in zulu kuthiwa ""akwaziwa okwanonisa ingulube"" just eat it and forget about that expiry date"	Normal	102
+train_isizulu_01071	bengingakholwa.  joseph: ngiya bhebha ##url	Normal	43
+train_isizulu_00196	@username ngdunusile ntombi ngiyazibiza ngizibuka esbukweni lol ungabona wena izinqa wutununu ungath ngigibele imfene 🤣🤣	Normal	120
+test_isizulu_00134	yazi asina lutho, amabhunu wona sisi?? ##url	Normal	44
+test_isizulu_00265	yini kwa prickly pear leyo uyazi thina mazulu sikholwa ngokubona veza leyo  ##url	Normal	81
+dev_isizulu_00473	mpolaye!🤣🤣 black or white abo mgodoyi lezinto😩🚮 ##url	Abuse	53
+train_isizulu_00725	@username #kesharp uyinja yomthakathi😭😔😭😭 ngekul_boni_zulu😫😭 ##url	Abuse	66
+dev_isizulu_00243	😂😂😂 ikwenzan lentombazana ikonwaya amasende😂😂😂#thequeenmzanzi	Normal	61
+train_isizulu_00655	this lady lana something of hers was stolen uthi uya emakhaya tomorrow morning uyo'landa imfene yakubo and idla uchappies eyakubo 😭😭😭😂😂	Normal	135
+train_isizulu_00925	so ningasichomeli engathi eyakho imomozi igxiza igolide.	Abuse	56
+train_isizulu_00651	"manake sferb lol. ""@username : kuphelake okwaziyo shlama rt @username : wtf -_-"	Abuse	79
+train_isizulu_02091	@username musukunya wena msunu kanyoko	Abuse	38
+train_isizulu_02735	@username wena sifebe woyeka ukuphaphela abantu ongabazi msunu kanyoko	Abuse	70
+dev_isizulu_00441	"uyanya! ""@username : ngiza lapho next week uzok ulikhothe ""@username : ngibuze ididi lakho shlama : ubuzwe ubani? ""_g: nidliwe!"	Abuse	127
+train_isizulu_01276	siya coba futhi, ngeke uthole iyi ngamla zi khuluma isizulu, manje thina sithanda izinto ai  ##url	Normal	98
+train_isizulu_01089	"""uzoshesh' ufe ngoba uyisfebe umncane....uzobhebheka uthole ingculaza didi"" 😭😭😭😭😭😭😭😭😭😭"	Abuse	86
+train_isizulu_00044	"lol eqede n buy me beer""@username : @username bhebha bhebha malume .akagcine durex yakhe asishiyele umsele nje kuphela"""	Normal	119
+train_isizulu_02238	akakaxoshwa emsebenzini lowa mlungu wase spur	Normal	45
+train_isizulu_00095	yifake engathi uyayikhupha, bese uykhupha engathi uyayifaka.  aiboo wenja ##url	Normal	79
+train_isizulu_02113	@username wenze kahle impela angazi wayeluthwe yini in wasekuqaleli elandela ontamolikhuni.  amabhunu lawa ngiwazi kahle ngihlala nawo wogedleyihlekisa.	Normal	152
+test_isizulu_00321	"lol wenja uyahlanya ngshaya ngelenda mina ""@username : ulingana nentombi ya @username ""@username : lmao zinhle"""""	Normal	112
+train_isizulu_00939	@username awu bhebhe wena bhebha aba bhebhezeli sithi kubo bhebisto kubo maaan... ##url	Normal	87
+train_isizulu_02442	amakula ayahlupha. le ngungunyana iyawathanda amehlo.  #sona2020	Hate	64
+train_isizulu_01331	“igolo liyakhula” @username - 2018	Abuse	34
+train_isizulu_00245	manginga bhebha ke nje iyobe isishayile..	Normal	41
+train_isizulu_02137	msunu kanyoko sani, ungangijwayeli igolo wena malebe nyoko @username 	Abuse	69
+test_isizulu_00160	@username walokhu umrs nje sisi usuli divose nini ibhunu??	Normal	58
+train_isizulu_01271	buqala kanjena ke ubufebe.. imagine umuntu wakho ethi uya e jimini kanti uyokwenza lo doti 😒 ##url	Abuse	98
+train_isizulu_02888	@username uyambona lo mlungu 😂	Normal	30
+train_isizulu_00250	musa ukukhuluma igolo.. coz ngzofaka lesa sthombe ubhedelwa ama tender 2018 ##url	Abuse	81
+dev_isizulu_00235	@username akadliwe inkomo yonke umthiya hlawula 😅😅😅    #siyancebeleka	Normal	69
+train_isizulu_00313	@username ungazongidakelwa wena shlama	Abuse	38
+dev_isizulu_00266	indoda eno grade 12 istabane leso indoda yangempela ino grade 5 nesbhamu	Abuse	72
+train_isizulu_01124	hulk inkomo fusegi.	Abuse	19
+train_isizulu_02753	"as for ""wathinta abafazi wathint' ibhokodo, wathinta isitabane wathint' igabade"" :""""d"	Abuse	85
+train_isizulu_02853	siyasbonga isifebe, cos sibalulekile... sfebe siyokubonisa ukphila ubom' without giving a shit... isifebe sibalulekile kwifood chain ...	Abuse	136
+dev_isizulu_00374	isitabane syadabukisa bafwethu geotologist uzohleka ###url #kingsomnala	Normal	71
+train_isizulu_02732	😭😂😭😂😭😂😂😂 ubufebe bunenkani ##url	Abuse	32
+train_isizulu_01439	lol konje umngani wami waye bhebha isangoma	Normal	43
+train_isizulu_01534	@username mazulu wafeba🗣️ donsi wabatho😭💔	Abuse	41
+train_isizulu_00728	ujabulisa amabhunu ngegama lika msholozi. angeke ubuye umhlaba la ##url	Normal	71
+train_isizulu_00957	"as for ""wathinta abafazi wathint' ibhokodo, wathinta isitabane wathint' igabade"" :""""d"	Abuse	85
+dev_isizulu_00153	real president is amasende akho lawa owagqoke ekhanda sphukuphuku ##url	Normal	71
+train_isizulu_02037	first week after being caught cheating is difficult. uthi uphuza amanzi wefridge bathi yini usapholisa ubufebe😒	Abuse	111
+test_isizulu_00298	akusiwo u twitter kanyoko lo.....coz kukhona abenza ngathi sisebenzisa i data yabo nx! 😡😡	Normal	89
+train_isizulu_00255	ubusafuna ukuwasha amehlo yin stabane? @username 	Abuse	49
+test_isizulu_00107	lol she was on that yeah asphushe iyellowbone love...akenziwakhe njalo!	Abuse	71
+train_isizulu_01492	"istabane lesi ""@username : usonke ustraight????? o__o"""	Abuse	54
+train_isizulu_00058	@username obheke shlama lento uyposta kaw two 🙄🙄🙄🙄awyeke ukuthithiza	Abuse	68
+train_isizulu_01951	oksalayo wisdomu esimbi esingangazi nokungazi stabane esidom. you’re a disgrace to the lgbtqi community 😊 ##url	Abuse	111
+train_isizulu_03033	@username so imina igolo	Abuse	24
+train_isizulu_02135	paul pogba ufuye imfene, akunakekile ngoba owaphesheya! hha uma nje ngingake ngibe nayo mina mzulu wakwanongoma mayeeeeeeee! kungaba yindaba enkulu, kuthiwe ngiyakhunkula🤣 @ ukhozi fm ##url	Normal	189
+train_isizulu_01676	@username stabane eslimele mfethu!	Abuse	34
