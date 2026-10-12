@@ -1,0 +1,8 @@
+experiment,notes,settings,val_macro_f1,val_accuracy,val_log_loss,cv_macro_f1
+word_bigrams_balanced,Word unigrams and bigrams with balanced class weights.,"{'ngram_range': (1, 2), 'class_weight': 'balanced', 'C': 1.0, 'max_features': 300000}",0.7074234919510859,0.7876754118364857,1.139483661313403,0.7252317720814891
+ensemble_of_5,Average of the class probabilities from the selected models.,{},0.6731225286111869,0.7663209273947529,0.8509204505470986,
+bilstm_word2vec,BiLSTM with attention initialized using Word2Vec Skip-gram embeddings.,"{'max_len': 256, 'emb_dim': 100, 'hidden': 64, 'dropout': 0.4, 'class_weights': True, 'lr': 0.001, 'batch_size': 64, 'epochs': 15, 'patience': 4}",0.670061144288268,0.7467968273337401,0.854034423828125,
+complement_nb_bigrams,Complement Naive Bayes with TF-IDF unigrams and bigrams.,"{'ngram_range': (1, 2), 'alpha': 0.1, 'max_features': 300000}",0.6240458474283102,0.7858450274557657,0.9895345225145709,0.6603318332829783
+cnn_class_weights,"TextCNN with kernel sizes 3, 4, and 5, using class weights.","{'max_len': 256, 'emb_dim': 100, 'kernel_sizes': (3, 4, 5), 'n_filters': 100, 'dropout': 0.5, 'class_weights': True, 'lr': 0.001, 'batch_size': 64, 'epochs': 15, 'patience': 4}",0.6045486363445749,0.685784014643075,0.9974244832992554,
+bilstm_attention_class_weights,Bidirectional LSTM with attention and class weights.,"{'max_len': 256, 'emb_dim': 100, 'hidden': 64, 'dropout': 0.4, 'class_weights': True, 'lr': 0.001, 'batch_size': 64, 'epochs': 15, 'patience': 4}",0.55378966075011,0.6461256863941428,1.3693530559539795,
+majority_baseline,Simple baseline using the training class frequencies.,{'strategy': 'prior'},0.022845427253423152,0.19035997559487491,2.240388396480306,0.022865292333614316

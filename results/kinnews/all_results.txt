@@ -1,0 +1,272 @@
+
+========================================================================
+1. DATA (Kinyarwanda, dataset = kinnews)
+========================================================================
+Split mode: general | Topics (14): ['politics', 'sport', 'economy', 'health', 'entertainment', 'history', 'technology', 'tourism', 'culture', 'fashion', 'religion', 'environment', 'education', 'relationship']
+Original articles: 10,924 | Empty removed: 0 | Conflicting labels: 0 | Duplicates removed: 0 | Remaining: 10,924
+Topics removed for having fewer than 20 articles: none
+               train  validation  test  total
+category                                     
+politics        1457         312   313   2082
+sport           1203         258   257   1718
+economy          898         193   192   1283
+health           948         203   204   1355
+entertainment   1238         266   265   1769
+history          160          35    34    229
+technology       177          38    38    253
+tourism           76          16    17    109
+culture          151          32    32    215
+fashion           90          19    20    129
+religion         491         105   105    701
+environment       97          20    21    138
+education        130          28    28    186
+relationship     530         114   113    757
+
+========================================================================
+2. ALL EXPERIMENTS (best validation Macro-F1 first)
+========================================================================
+                       experiment                                                                   notes  val_macro_f1  val_accuracy  val_log_loss  cv_macro_f1
+0           word_bigrams_balanced                  Word unigrams and bigrams with balanced class weights.        0.7074        0.7877        1.1395       0.7252
+1                   ensemble_of_5            Average of the class probabilities from the selected models.        0.6731        0.7663        0.8509          NaN
+2                 bilstm_word2vec  BiLSTM with attention initialized using Word2Vec Skip-gram embeddings.        0.6701        0.7468        0.8540          NaN
+3           complement_nb_bigrams                Complement Naive Bayes with TF-IDF unigrams and bigrams.        0.6240        0.7858        0.9895       0.6603
+4               cnn_class_weights             TextCNN with kernel sizes 3, 4, and 5, using class weights.        0.6045        0.6858        0.9974          NaN
+5  bilstm_attention_class_weights                    Bidirectional LSTM with attention and class weights.        0.5538        0.6461        1.3694          NaN
+6               majority_baseline                   Simple baseline using the training class frequencies.        0.0228        0.1904        2.2404       0.0229
+
+- majority_baseline: Simple baseline using the training class frequencies.
+  Settings: {'strategy': 'prior'}
+
+- word_bigrams_balanced: Word unigrams and bigrams with balanced class weights.
+  Settings: {'ngram_range': (1, 2), 'class_weight': 'balanced', 'C': 1.0, 'max_features': 300000}
+
+- complement_nb_bigrams: Complement Naive Bayes with TF-IDF unigrams and bigrams.
+  Settings: {'ngram_range': (1, 2), 'alpha': 0.1, 'max_features': 300000}
+
+- cnn_class_weights: TextCNN with kernel sizes 3, 4, and 5, using class weights.
+  Settings: {'max_len': 256, 'emb_dim': 100, 'kernel_sizes': (3, 4, 5), 'n_filters': 100, 'dropout': 0.5, 'class_weights': True, 'lr': 0.001, 'batch_size': 64, 'epochs': 15, 'patience': 4}
+
+- bilstm_attention_class_weights: Bidirectional LSTM with attention and class weights.
+  Settings: {'max_len': 256, 'emb_dim': 100, 'hidden': 64, 'dropout': 0.4, 'class_weights': True, 'lr': 0.001, 'batch_size': 64, 'epochs': 15, 'patience': 4}
+
+- bilstm_word2vec: BiLSTM with attention initialized using Word2Vec Skip-gram embeddings.
+  Settings: {'max_len': 256, 'emb_dim': 100, 'hidden': 64, 'dropout': 0.4, 'class_weights': True, 'lr': 0.001, 'batch_size': 64, 'epochs': 15, 'patience': 4}
+
+- ensemble_of_5: Average of the class probabilities from the selected models.
+  Settings: {}
+
+========================================================================
+3. VALIDATION AND CROSS-VALIDATION SCORES
+========================================================================
+majority_baseline    Validation: Macro-F1 0.0228 | Weighted-F1 0.0609 | Accuracy 0.1904 | Log loss 2.2404
+                     5-fold CV Macro-F1: 0.0229 ± 0.0000
+logistic_regression  Validation: Macro-F1 0.7074 | Weighted-F1 0.7880 | Accuracy 0.7877 | Log loss 1.1395
+                     5-fold CV Macro-F1: 0.7252 ± 0.0115
+naive_bayes          Validation: Macro-F1 0.6240 | Weighted-F1 0.7742 | Accuracy 0.7858 | Log loss 0.9895
+                     5-fold CV Macro-F1: 0.6603 ± 0.0152
+cnn                  Validation: Macro-F1 0.6045 | Weighted-F1 0.6857 | Accuracy 0.6858 | Log loss 0.9974
+                     5-fold CV Macro-F1: not run
+bilstm_attention     Validation: Macro-F1 0.5538 | Weighted-F1 0.6553 | Accuracy 0.6461 | Log loss 1.3694
+                     5-fold CV Macro-F1: not run
+bilstm_word2vec      Validation: Macro-F1 0.6701 | Weighted-F1 0.7507 | Accuracy 0.7468 | Log loss 0.8540
+                     5-fold CV Macro-F1: not run
+ensemble             Validation: Macro-F1 0.6731 | Weighted-F1 0.7676 | Accuracy 0.7663 | Log loss 0.8509
+                     5-fold CV Macro-F1: not run
+
+========================================================================
+4. TEST SCORES
+========================================================================
+                     macro_f1  weighted_f1  accuracy  log_loss
+logistic_regression    0.7125       0.7705    0.7694    1.1597
+ensemble               0.6733       0.7496    0.7480    0.8797
+naive_bayes            0.6479       0.7676    0.7779    1.0183
+bilstm_word2vec        0.6365       0.7151    0.7108    0.9107
+cnn                    0.6197       0.6853    0.6852    0.9959
+bilstm_attention       0.5583       0.6291    0.6223    1.4571
+majority_baseline      0.0229       0.0612    0.1910    2.2433
+
+Model selected using validation data: logistic_regression
+
+========================================================================
+5. PER-TOPIC CLASSIFICATION REPORTS
+========================================================================
+
+--- majority_baseline
+               precision    recall  f1-score   support
+
+     politics      0.191     1.000     0.321       313
+        sport      0.000     0.000     0.000       257
+      economy      0.000     0.000     0.000       192
+       health      0.000     0.000     0.000       204
+entertainment      0.000     0.000     0.000       265
+      history      0.000     0.000     0.000        34
+   technology      0.000     0.000     0.000        38
+      tourism      0.000     0.000     0.000        17
+      culture      0.000     0.000     0.000        32
+      fashion      0.000     0.000     0.000        20
+     religion      0.000     0.000     0.000       105
+  environment      0.000     0.000     0.000        21
+    education      0.000     0.000     0.000        28
+ relationship      0.000     0.000     0.000       113
+
+     accuracy                          0.191      1639
+    macro avg      0.014     0.071     0.023      1639
+ weighted avg      0.036     0.191     0.061      1639
+
+
+--- logistic_regression
+               precision    recall  f1-score   support
+
+     politics      0.784     0.696     0.738       313
+        sport      0.952     0.918     0.935       257
+      economy      0.704     0.745     0.724       192
+       health      0.645     0.676     0.660       204
+entertainment      0.824     0.815     0.820       265
+      history      0.564     0.647     0.603        34
+   technology      0.660     0.816     0.729        38
+      tourism      0.619     0.765     0.684        17
+      culture      0.576     0.594     0.585        32
+      fashion      0.800     0.600     0.686        20
+     religion      0.838     0.838     0.838       105
+  environment      0.632     0.571     0.600        21
+    education      0.515     0.607     0.557        28
+ relationship      0.787     0.850     0.817       113
+
+     accuracy                          0.769      1639
+    macro avg      0.707     0.724     0.713      1639
+ weighted avg      0.774     0.769     0.771      1639
+
+
+--- naive_bayes
+               precision    recall  f1-score   support
+
+     politics      0.709     0.812     0.757       313
+        sport      0.908     0.965     0.936       257
+      economy      0.685     0.792     0.734       192
+       health      0.703     0.662     0.682       204
+entertainment      0.804     0.883     0.842       265
+      history      0.500     0.147     0.227        34
+   technology      0.955     0.553     0.700        38
+      tourism      0.571     0.471     0.516        17
+      culture      0.889     0.500     0.640        32
+      fashion      0.778     0.350     0.483        20
+     religion      0.875     0.800     0.836       105
+  environment      0.833     0.238     0.370        21
+    education      0.909     0.357     0.513        28
+ relationship      0.821     0.850     0.835       113
+
+     accuracy                          0.778      1639
+    macro avg      0.781     0.598     0.648      1639
+ weighted avg      0.780     0.778     0.768      1639
+
+
+--- cnn
+               precision    recall  f1-score   support
+
+     politics      0.710     0.524     0.603       313
+        sport      0.961     0.856     0.905       257
+      economy      0.545     0.688     0.608       192
+       health      0.567     0.564     0.565       204
+entertainment      0.750     0.792     0.771       265
+      history      0.471     0.471     0.471        34
+   technology      0.404     0.500     0.447        38
+      tourism      0.476     0.588     0.526        17
+      culture      0.633     0.594     0.613        32
+      fashion      0.750     0.600     0.667        20
+     religion      0.644     0.829     0.725       105
+  environment      0.571     0.381     0.457        21
+    education      0.500     0.536     0.517        28
+ relationship      0.756     0.850     0.800       113
+
+     accuracy                          0.685      1639
+    macro avg      0.624     0.627     0.620      1639
+ weighted avg      0.697     0.685     0.685      1639
+
+
+--- bilstm_attention
+               precision    recall  f1-score   support
+
+     politics      0.637     0.511     0.567       313
+        sport      0.890     0.911     0.900       257
+      economy      0.463     0.682     0.552       192
+       health      0.597     0.377     0.462       204
+entertainment      0.787     0.626     0.697       265
+      history      0.218     0.500     0.304        34
+   technology      0.319     0.605     0.418        38
+      tourism      0.556     0.588     0.571        17
+      culture      0.347     0.531     0.420        32
+      fashion      0.667     0.600     0.632        20
+     religion      0.769     0.571     0.656       105
+  environment      0.410     0.762     0.533        21
+    education      0.314     0.393     0.349        28
+ relationship      0.748     0.761     0.754       113
+
+     accuracy                          0.622      1639
+    macro avg      0.552     0.601     0.558      1639
+ weighted avg      0.661     0.622     0.629      1639
+
+
+--- bilstm_word2vec
+               precision    recall  f1-score   support
+
+     politics      0.629     0.732     0.677       313
+        sport      0.938     0.934     0.936       257
+      economy      0.748     0.526     0.618       192
+       health      0.691     0.559     0.618       204
+entertainment      0.848     0.736     0.788       265
+      history      0.293     0.647     0.404        34
+   technology      0.585     0.632     0.608        38
+      tourism      0.591     0.765     0.667        17
+      culture      0.389     0.438     0.412        32
+      fashion      0.591     0.650     0.619        20
+     religion      0.787     0.705     0.744       105
+  environment      0.464     0.619     0.531        21
+    education      0.409     0.643     0.500        28
+ relationship      0.748     0.841     0.792       113
+
+     accuracy                          0.711      1639
+    macro avg      0.622     0.673     0.636      1639
+ weighted avg      0.733     0.711     0.715      1639
+
+
+--- ensemble
+               precision    recall  f1-score   support
+
+     politics      0.727     0.722     0.724       313
+        sport      0.931     0.938     0.934       257
+      economy      0.685     0.703     0.694       192
+       health      0.703     0.593     0.644       204
+entertainment      0.845     0.800     0.822       265
+      history      0.442     0.559     0.494        34
+   technology      0.510     0.684     0.584        38
+      tourism      0.545     0.706     0.615        17
+      culture      0.488     0.625     0.548        32
+      fashion      0.750     0.600     0.667        20
+     religion      0.800     0.762     0.780       105
+  environment      0.583     0.667     0.622        21
+    education      0.469     0.536     0.500        28
+ relationship      0.775     0.823     0.798       113
+
+     accuracy                          0.748      1639
+    macro avg      0.661     0.694     0.673      1639
+ weighted avg      0.755     0.748     0.750      1639
+
+
+========================================================================
+6. TEST F1-SCORE PER TOPIC
+========================================================================
+               test articles  majority_baseline  logistic_regression  naive_bayes    cnn  bilstm_attention  bilstm_word2vec  ensemble
+politics                 313              0.321                0.738        0.757  0.603             0.567            0.677     0.724
+sport                    257              0.000                0.935        0.936  0.905             0.900            0.936     0.934
+economy                  192              0.000                0.724        0.734  0.608             0.552            0.618     0.694
+health                   204              0.000                0.660        0.682  0.565             0.462            0.618     0.644
+entertainment            265              0.000                0.820        0.842  0.771             0.697            0.788     0.822
+history                   34              0.000                0.603        0.227  0.471             0.304            0.404     0.494
+technology                38              0.000                0.729        0.700  0.447             0.418            0.608     0.584
+tourism                   17              0.000                0.684        0.516  0.526             0.571            0.667     0.615
+culture                   32              0.000                0.585        0.640  0.613             0.420            0.412     0.548
+fashion                   20              0.000                0.686        0.483  0.667             0.632            0.619     0.667
+religion                 105              0.000                0.838        0.836  0.725             0.656            0.744     0.780
+environment               21              0.000                0.600        0.370  0.457             0.533            0.531     0.622
+education                 28              0.000                0.557        0.513  0.517             0.349            0.500     0.500
+relationship             113              0.000                0.817        0.835  0.800             0.754            0.792     0.798
