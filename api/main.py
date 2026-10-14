@@ -24,7 +24,7 @@ from pydantic import BaseModel, Field
 
 API_DIR = Path(__file__).resolve().parent         # <project>/api
 ROOT_DIR = API_DIR.parent                         # <project>
-MODELS_DIR = Path(os.environ.get("MODELS_DIR", ROOT_DIR / "models"))   # <project>/models  (written by the notebook)
+MODELS_DIR = Path(os.environ.get("MODELS_DIR", ROOT_DIR / "models"))   # <project>/models  
 FRONTEND_DIR = ROOT_DIR / "frontend"              # <project>/frontend (the HTML page)
 sys.path.insert(0, str(API_DIR))                  # so that "import nlp_utils" works
 
