@@ -1,4 +1,4 @@
-"""FastAPI server: predicts the topic of Kinyarwanda / Kirundi news text AND serves the web page.
+"""FastAPI server: predicts the topic of Kinyarwanda news text AND serves the web page.
 
 Run it from the project folder:
 
@@ -9,7 +9,7 @@ Then open  http://localhost:8000          the web page (frontend/index.html)
            http://localhost:8000/docs     interactive documentation of the API
 
 The models (folder models/) and api/nlp_utils.py are written by the notebook (Section 10).
-Every folder models/<dataset>/ (kinnews = Kinyarwanda, kirnews = Kirundi) becomes one language.
+The `models/kinnews/` folder contains the Kinyarwanda classifier.
 """
 import os
 import sys
@@ -28,7 +28,7 @@ MODELS_DIR = Path(os.environ.get("MODELS_DIR", ROOT_DIR / "models"))   # <projec
 FRONTEND_DIR = ROOT_DIR / "frontend"              # <project>/frontend (the HTML page)
 sys.path.insert(0, str(API_DIR))                  # so that "import nlp_utils" works
 
-# dataset key ("kinnews", "kirnews") -> loaded classifier
+# dataset key ("kinnews") -> loaded classifier
 classifiers: Dict[str, object] = {}
 
 
@@ -52,8 +52,8 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Kinyarwanda & Kirundi news classifier",
-    description="Send a news text in Kinyarwanda or Kirundi and get its predicted topic.",
+    title="Kinyarwanda news classifier",
+    description="Send a news text in Kinyarwanda and get its predicted topic.",
     version="1.0.0",
     lifespan=lifespan,
 )
@@ -69,13 +69,13 @@ class PredictRequest(BaseModel):
     text: str = Field(..., min_length=1, max_length=20000, description="The news text (title and/or article).")
     language: Optional[str] = Field(
         None,
-        description="Which language model to use: 'kinnews' or 'Kinyarwanda', 'kirnews' or 'Kirundi'. "
+        description="Use the Kinyarwanda model: 'kinnews' or 'Kinyarwanda'. "
                     "If you leave it out, the first available model is used.")
 
 
 class PredictResponse(BaseModel):
-    dataset: str = Field(..., description="'kinnews' or 'kirnews'")
-    language: str = Field(..., description="'Kinyarwanda' or 'Kirundi'")
+    dataset: str = Field(..., description="'kinnews'")
+    language: str = Field(..., description="'Kinyarwanda'")
     label: str = Field(..., description="The predicted topic")
     confidence: float = Field(..., description="Probability of the predicted topic (0 to 1)")
     probabilities: Dict[str, float] = Field(..., description="Probability of every topic, highest first")

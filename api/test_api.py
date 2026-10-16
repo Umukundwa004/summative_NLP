@@ -35,7 +35,7 @@ def test_languages(client):
     languages = client.get("/languages").json()
     assert len(languages) >= 1
     for language in languages:
-        assert language["dataset"] in ("kinnews", "kirnews")
+        assert language["dataset"] == "kinnews"
         assert len(language["labels"]) >= 2
         assert 0 <= language["test_macro_f1"] <= 1
 

@@ -1,10 +1,10 @@
-# Kinyarwanda & Kirundi news topic classifier
+# Kinyarwanda news topic classifier
 
-Classify a news text in **Kinyarwanda** or **Kirundi** into a topic (politics, sport, economy, health, ...).
+Classify a news text in **Kinyarwanda** into a topic (politics, sport, economy, health, ...).
 
 ```
 notebook/   the experiments (data, cleaning, models, evaluation, error analysis, saving the model)
-models/     the trained models, written by the notebook (one folder per language: kinnews, kirnews)
+models/     the trained Kinyarwanda model, written by the notebook (kinnews)
 api/        FastAPI server: loads models/, answers /predict, and serves the web page
 frontend/   index.html: the page where the user types the text
 data/       the dataset (downloaded by the notebook; do not upload it to git)
@@ -22,8 +22,8 @@ How the parts work together:
 
 ## 1. Train the model (notebook)
 
-1. Open `notebook/kinnews_kirnews_experiments.ipynb` and run all cells. The dataset is downloaded into `data/` automatically (no account needed).
-2. Change `DATASET = "kirnews"` in the settings cell and run it again to add the second language.
+1. Open `notebook/kinnews_experiments.ipynb` and run all cells. The KINNEWS dataset is downloaded into `data/` automatically (no account needed).
+2. Run the settings cell with `DATASET = "kinnews"`.
 3. Section 10 saves the chosen model into `models/<dataset>/`, writes `api/nlp_utils.py` and `api/requirements.txt`, and checks that the server's model gives the same predictions as the notebook.
 
 > The experiments with the BiLSTM are slow on a CPU for the large Kinyarwanda dataset. Use a free Colab GPU (and download the `models/` and `api/` folders afterwards), or lower `MAX_LEN` and the number of epochs.
@@ -49,8 +49,8 @@ uvicorn main:app --app-dir api --port 8000
 |---|---|
 | `GET /` | the web page |
 | `GET /health` | is the server running, which models are loaded |
-| `GET /languages` | the languages (models) available, their topics and test scores |
-| `POST /predict` | body `{"text": "...", "language": "kinnews" or "kirnews"}` (language is optional); returns the topic, the confidence and the probability of every topic |
+| `GET /languages` | the Kinyarwanda model, its topics and test scores |
+| `POST /predict` | body `{"text": "...", "language": "kinnews"}` (language is optional); returns the topic, the confidence and the probability of every topic |
 
 Errors are clear: `404` unknown language, `422` empty or too long text, `503` no model loaded yet.
 
