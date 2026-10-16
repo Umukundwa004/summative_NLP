@@ -54,6 +54,16 @@ uvicorn main:app --app-dir api --port 8000
 
 Errors are clear: `404` unknown language, `422` empty or too long text, `503` no model loaded yet.
 
+## 3. Deploy with Streamlit Cloud
+
+This repository includes a separate Streamlit entrypoint for deployment:
+
+1. In Streamlit Cloud, set **Main file path** to `streamlit_app.py`.
+2. Deploy the application from the `main` branch.
+3. Do not use `api/main.py` as the Streamlit main file; it is the FastAPI server entrypoint.
+
+The Streamlit app loads the Kinyarwanda model from `models/kinnews/`. The model bundle is included in the repository so the deployed app can classify text without retraining.
+
 ## Notes
 
 * The saved models can be large (especially a Transformer). Add `data/`, `models/` and `.venv/` to `.gitignore`.

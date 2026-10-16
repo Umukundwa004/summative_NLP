@@ -1,4 +1,6 @@
 .venv
 .env
 /data
-/models
+/models/*
+!/models/kinnews/
+!/models/kinnews/**

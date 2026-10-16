@@ -1,0 +1,31 @@
+{
+  "dataset": "kinnews",
+  "language": "Kinyarwanda",
+  "labels": [
+    "politics",
+    "sport",
+    "economy",
+    "health",
+    "entertainment",
+    "history",
+    "technology",
+    "tourism",
+    "culture",
+    "fashion",
+    "religion",
+    "environment",
+    "education",
+    "relationship"
+  ],
+  "best_model": "logistic_regression",
+  "validation_macro_f1": 0.7074,
+  "test_macro_f1": 0.7125459594795082,
+  "test_accuracy": 0.7693715680292862,
+  "models": [
+    {
+      "path": "logistic_regression",
+      "type": "sklearn",
+      "settings": {}
+    }
+  ]
+}
