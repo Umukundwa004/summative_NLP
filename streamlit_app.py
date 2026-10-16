@@ -19,14 +19,6 @@ def load_classifier() -> DeployedClassifier:
     return DeployedClassifier(MODEL_DIR)
 
 
-def card_start():
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-
-
-def card_end():
-    st.markdown("</div>", unsafe_allow_html=True)
-
-
 st.set_page_config(page_title="News topic classifier: Kinyarwanda", page_icon="📰", layout="centered")
 st.markdown(
     """
@@ -39,9 +31,6 @@ st.markdown(
     h1 { font-size:1.6rem !important; margin-bottom:.25rem !important; }
     .lead, .small { color:var(--muted); }
     .lead { margin-bottom:1.25rem; }
-    .card { background:var(--card); border:1px solid var(--line); border-radius:12px;
-            padding:1rem; margin-bottom:1rem; }
-    .card h2 { color:var(--muted); font-size:.95rem; margin:0 0 .15rem; }
     .topic { color:var(--green); font-size:2rem; font-weight:700; margin:0; }
     .model-info { color:var(--muted); font-size:.85rem; margin-top:.4rem; }
     .warning { color:var(--warn); margin-top:.4rem; }
@@ -74,12 +63,10 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-card_start()
 st.markdown("**Kinyarwanda model**")
 if not (MODEL_DIR / "config.json").exists():
     st.error("The trained Kinyarwanda model is missing from the deployment.")
     st.info("Run the notebook's model-saving section and include models/kinnews before deploying.")
-    card_end()
     st.stop()
 
 try:
@@ -94,9 +81,7 @@ try:
 except Exception as error:
     st.error(f"Could not load the model: {error}")
     classifier = None
-card_end()
 
-card_start()
 st.markdown("**News text**")
 text = st.text_area(
     "News text",
@@ -115,7 +100,6 @@ st.caption(f"{len(text)} / {MAX_TEXT_LENGTH} characters")
 if st.session_state.error:
     st.error(st.session_state.error)
 st.caption("Tip: use the Classify button to submit the text.")
-card_end()
 
 if clear_clicked:
     st.session_state.text = ""
@@ -140,7 +124,6 @@ if classify_clicked:
 
 result = st.session_state.result
 if result:
-    card_start()
     st.markdown("<h2>Predicted topic</h2>", unsafe_allow_html=True)
     st.markdown(f'<p class="topic">{result["label"].capitalize()}</p>', unsafe_allow_html=True)
     st.markdown(f'Confidence: {result["confidence"] * 100:.1f}%')
@@ -161,6 +144,5 @@ if result:
     st.markdown("".join(bars), unsafe_allow_html=True)
     with st.expander("What the model actually saw (after cleaning)"):
         st.code(result["cleaned_text"], language=None)
-    card_end()
 
 st.caption("The model can make mistakes. Do not rely on it alone for important decisions.")
