@@ -7,7 +7,9 @@ optional FastAPI service.
 
 **Try the deployed application:**
 [Open the Kinyarwanda news classifier](https://summativenlp-mvcz2sv7jk56kouu45pdmg.streamlit.app/)
+
 [youtube video](https://youtu.be/AlPnrd_C270)
+
 [github link](https://github.com/Umukundwa004/summative_NLP)
 **Other resources**
 
