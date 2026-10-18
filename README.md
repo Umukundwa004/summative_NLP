@@ -241,8 +241,7 @@ the permitted browser origins and optionally set `MODELS_DIR` to a custom
 model directory.
 
 ## License and data notice
-
-The project code is provided for coursework and experimentation. The KINNEWS
+ The KINNEWS
 dataset contains news articles whose copyright belongs to their original
 sources. Follow the dataset's terms and source notices when downloading,
 redistributing, or publishing derived data.
