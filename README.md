@@ -1,247 +1,145 @@
 # Kinyarwanda News Topic Classifier
 
-An end-to-end natural language processing project for classifying a Kinyarwanda
-news article into one of 14 topics. The project includes reproducible
-experiments, a saved production model, a Streamlit web application, and an
-optional FastAPI service.
+Classifies a Kinyarwanda news article into one of 14 topics.
 
-**Try the deployed application:**
-[Open the Kinyarwanda news classifier](https://summativenlp-mvcz2sv7jk56kouu45pdmg.streamlit.app/)
-
-[youtube video](https://youtu.be/AlPnrd_C270)
-
-**Other resources**
-
-- [KINNEWS dataset on Hugging Face](https://huggingface.co/datasets/andreniyongabo/kinnews_kirnews)
-- [KINNEWS source repository](https://github.com/saradhix/kinnews_kinnews)
+- **Live app:** https://summativenlp-mvcz2sv7jk56kouu45pdmg.streamlit.app/
+- **Demo video:** https://youtu.be/AlPnrd_C270
+- **GitHub:** https://github.com/Umukundwa004/summative_NLP
 
 ## Problem
 
-News publishers produce articles in Kinyarwanda across many subject areas.
-Automatically identifying the topic can support search, filtering, content
-organisation, and downstream analysis. This project predicts the topic of a
-Kinyarwanda news title or article from the following 14 labels:
+Automatic topic classification of Kinyarwanda news helps organise archives,
+match articles to readers, and monitor public information in the language most
+Rwandans speak. It is hard because Kinyarwanda is a Bantu language with rich
+morphology (one word appears in many forms) and, like most African languages,
+has little labelled data and few ready made NLP tools.
 
-`politics`, `sport`, `economy`, `health`, `entertainment`, `history`,
+Topics: `politics`, `sport`, `economy`, `health`, `entertainment`, `history`,
 `technology`, `tourism`, `culture`, `fashion`, `religion`, `environment`,
-`education`, and `relationship`.
-
-The system is a multi-class single-label classifier: each input receives one
-topic, a confidence score, and probabilities for all topics. It is an
-educational NLP system and should not be used as the sole basis for important
-editorial, financial, medical, or other decisions.
+`education`, `relationship`.
 
 ## Dataset
 
-The project uses **KINNEWS**, a labelled Kinyarwanda news classification
-dataset. The original dataset was collected from Rwandan news websites and
-newspapers. Its raw files contain a class index, English and Kinyarwanda
-labels, URL, title, and article content; the cleaned files contain the class,
-title, and content.
+**KINNEWS**: real Kinyarwanda news articles from Rwandan websites and
+newspapers ([Hugging Face](https://huggingface.co/datasets/andreniyongabo/kinnews_kirnews)).
 
-The experiment run recorded in `results/kinnews/` contains:
+- 21,268 raw articles. About 48% were duplicates, and 52% of the official test
+  articles also appeared in the training file.
+- After cleaning (1,453 conflicting-label and 8,891 duplicate articles removed):
+  **10,924 articles**, split 70/15/15 (train/validation/test) with
+  stratification. The test set has 1,639 articles.
+- Cleaning: unescape HTML, normalise Unicode, remove URLs and emails, lower-case.
 
-- 10,924 usable articles after preprocessing;
-- 14 topic classes;
-- 70% training, 15% validation, and 15% test data using one shared
-  stratified split;
-- 1,639 held-out test articles;
-- no empty, conflicting, duplicate, or low-frequency classes removed in this
-  run.
+## Models and results
 
-The notebook can download the data from the linked source. Dataset files are
-normally excluded from Git with `.gitignore`; keep them locally under
-`data/KINNEWS/` when reproducing the experiments.
+All models use the same split. The best model is chosen on validation macro-F1.
 
-## Methodology
+| Model | Test macro-F1 | Test accuracy |
+|---|---:|---:|
+| **TF-IDF + Logistic Regression** | **0.7125** | 0.7694 |
+| Ensemble of 6 models | 0.7024 | 0.7730 |
+| BiLSTM + Word2Vec | 0.6667 | 0.7492 |
+| TF-IDF + Complement Naive Bayes | 0.6479 | **0.7779** |
+| TextCNN | 0.6151 | 0.6608 |
+| AfroXLMR (trained on 800 articles) | 0.5608 | 0.6827 |
+| BiLSTM + attention | 0.4637 | 0.5265 |
+| Majority-class baseline | 0.0229 | 0.1910 |
 
-### Text preparation
+**Deployed model:** TF-IDF (word unigrams and bigrams, 300,000 features) with
+balanced Logistic Regression. It also had the best validation macro-F1 (0.7074)
+and 5-fold cross-validation macro-F1 (0.7252).
 
-The same cleaning logic is used during training and inference:
+What we learned:
+- A simple model beat the neural networks on this small dataset.
+- Word2Vec embeddings helped the BiLSTM a lot (validation macro-F1 0.482 to 0.679).
+- AfroXLMR used only about 10% of the training data (compute limits), so it is a
+  small test, not a fair comparison.
 
-1. HTML entities are unescaped and Unicode is normalised.
-2. Invisible characters, URLs, and email addresses are removed.
-3. Text is lower-cased and repeated whitespace is collapsed.
-4. Empty, duplicate, and conflicting records are removed before splitting.
+## Error analysis
 
-The deployed classifier returns the cleaned text in its prediction response so
-that users can inspect what the model received.
+The deployed model got 378 of 1,639 test articles wrong (23.1%).
 
-### Candidate models
+- **Works well:** sport (F1 0.94), religion (0.84), entertainment (0.82), relationship (0.82).
+- **Works poorly:** education, culture, environment, history (F1 0.56 to 0.60).
+  These topics have few training articles and no fixed vocabulary.
+- **Common confusions:** politics, economy, and health overlap. 
+- **Other causes:** noisy labels, and Kinyarwanda words that were  not seen in training.
 
-All experiments use the same cleaned data and split. The notebook evaluates:
+## Limitations
 
-- a majority-class baseline;
-- TF-IDF word unigrams and bigrams with Logistic Regression;
-- Complement Naive Bayes with TF-IDF unigrams and bigrams;
-- TextCNN with class weights;
-- BiLSTM with attention;
-- BiLSTM with attention initialised with Word2Vec embeddings; and
-- an ensemble that averages selected model probabilities.
+- Small, imbalanced data; some topics have under 200 training articles.
+- Only exact duplicates were removed, and labels were not manually checked.
+- Each article has one label, but real news can belong to several topics.
+- Trained on news only; it may do worse on social media or code-mixed text.
 
-Validation macro-F1 is used to select the final model. The test set is used
-after model selection for the final comparison.
+**Future work:** fine-tune AfroXLMR on all the training data, add character
+n-gram features, review labels with native speakers, and show a low-confidence
+warning in the app.
 
-### Selected model
-
-The deployed model is **TF-IDF word unigrams and bigrams plus balanced
-Logistic Regression**. Its recorded settings are:
-
-- n-gram range: `(1, 2)`;
-- class weights: `balanced`;
-- regularisation `C`: `1.0`; and
-- maximum features: `300,000`.
-
-The saved bundle is in [`models/kinnews/`](C:/Users/LENOVO/OneDrive/Desktop/machine%20learning/summative_NLP/models/kinnews/).
-The application loads this bundle at startup; it does not retrain on every
-request.
-
-## Experiments and results
-
-The final held-out test results are below. The primary comparison metric is
-macro-F1 because it gives each topic equal weight despite class imbalance.
-
-| Model | Macro-F1 | Weighted-F1 | Accuracy | Log loss |
-|---|---:|---:|---:|---:|
-| Logistic Regression | **0.7125** | 0.7705 | 0.7694 | 1.1597 |
-| Ensemble | 0.6733 | 0.7496 | 0.7480 | 0.8797 |
-| Complement Naive Bayes | 0.6479 | 0.7676 | **0.7779** | 1.0183 |
-| BiLSTM + Word2Vec | 0.6365 | 0.7151 | 0.7108 | 0.9107 |
-| TextCNN | 0.6197 | 0.6853 | 0.6852 | 0.9959 |
-| BiLSTM + attention | 0.5583 | 0.6291 | 0.6223 | 1.4571 |
-| Majority baseline | 0.0229 | 0.0612 | 0.1910 | 2.2433 |
-
-The Logistic Regression model was selected because it achieved the best
-validation macro-F1 (0.7074) and the best test macro-F1 (0.7125). Complement
-Naive Bayes achieved slightly higher test accuracy, but its macro-F1 was lower,
-which indicates weaker performance across the less frequent topics.
-
-The per-topic results show strong performance on topics such as sport,
-entertainment, religion, and relationship. Smaller classes such as education,
-environment, culture, and history are more difficult, partly because they have
-fewer test examples. Long articles can also be difficult because neural
-experiments truncate their input to a maximum sequence length.
-
-## Repository structure
+## Project structure
 
 ```text
-.
-├── api/
-│   ├── main.py              FastAPI server and API endpoints
-│   ├── nlp_utils.py         Shared model loading, cleaning, and prediction
-│   ├── requirements.txt     API dependencies
-│   └── test_api.py          API tests
-├── data/KINNEWS/            Raw and cleaned dataset files
-├── frontend/index.html      Optional HTML client for FastAPI
-├── models/kinnews/          Saved Logistic Regression model and metadata
-├── notebook/                Training, experiments, evaluation, and export
-├── results/kinnews/         Metrics and error-analysis outputs
-├── screenshots/             Desktop and phone UI screenshots
-├── streamlit_app.py         Deployed and local Streamlit entry point
-└── requirements.txt         Application and notebook dependencies
+api/                 FastAPI server, shared prediction code, tests
+data/KINNEWS/        Dataset files (not in Git)
+frontend/index.html  Optional HTML client for the API
+models/kinnews/      Saved Logistic Regression model
+notebook/            Training, experiments, evaluation
+results/kinnews/     Metrics and error-analysis outputs
+streamlit_app.py     Web app
+requirements.txt     Dependencies
 ```
 
 ## Run locally
 
-Python 3.10 or newer is recommended.
-
-### Streamlit web application
-
-From the repository root:
+Python 3.10 or newer.
 
 ```bash
 python -m venv .venv
-# Windows PowerShell:
-.venv\Scripts\Activate.ps1
-# macOS/Linux:
-# source .venv/bin/activate
-
+.venv\Scripts\Activate.ps1        # Windows (macOS/Linux: source .venv/bin/activate)
 python -m pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-Open the local URL printed by Streamlit, normally
-`http://localhost:8501`. The app loads the saved model from
-`models/kinnews/` and displays the predicted topic, confidence,
-class-probability bars, and cleaned input text.
+Open `http://localhost:8501`, paste Kinyarwanda text, and get the predicted
+topic, confidence, and class probabilities.
 
-### FastAPI service
-
-Install the API dependencies and start the server:
+**Optional API:**
 
 ```bash
 python -m pip install -r api/requirements.txt
 uvicorn main:app --app-dir api --port 8000
 ```
 
-Useful endpoints:
+Endpoints: `GET /health`, `POST /predict`, `GET /docs`. Run tests with
+`pytest api -q`.
 
-| Endpoint | Description |
-|---|---|
-| `GET /` | Serves the optional HTML client |
-| `GET /health` | Reports server status and loaded models |
-| `GET /languages` | Lists labels and recorded model scores |
-| `POST /predict` | Classifies a Kinyarwanda text |
-| `GET /docs` | Opens the interactive OpenAPI documentation |
+## Reproduce the experiments
 
-Example request:
-
-```bash
-curl -X POST http://localhost:8000/predict ^
-  -H "Content-Type: application/json" ^
-  -d "{\"text\":\"Ikipe y'igihugu yatsinze umukino ejo mu kibuga.\",\"language\":\"kinnews\"}"
-```
-
-On macOS/Linux, replace the `^` line continuations with `\`.
-`language` is optional. The response includes `dataset`, `language`, `label`,
-`confidence`, probabilities for every topic, and `cleaned_text`.
-
-Run the API tests from the repository root:
-
-```bash
-python -m pip install pytest httpx
-pytest api -q
-```
-
-## Reproduce training and experiments
-
-1. Open [`notebook/kinnews_NLP_classification.ipynb`](C:/Users/LENOVO/OneDrive/Desktop/machine%20learning/summative_NLP/notebook/kinnews_NLP_classification.ipynb)
-   in Jupyter or Google Colab.
-2. Install the notebook packages from the notebook's setup cell.
-3. Set `DATASET = "kinnews"` and run the cells in order.
-4. The notebook downloads/prepares KINNEWS, performs the shared split,
-   trains each candidate, evaluates validation and test performance, and
-   writes artifacts to `results/kinnews/`.
-5. The model-export section writes the selected model to
-   `models/kinnews/` and generates the shared inference utilities used by the
-   API and Streamlit application.
-
-The neural-network experiments can be slow on CPU. A free Colab GPU is
-recommended for rerunning the full notebook. The saved Logistic Regression
-bundle is already included, so users only need to install the application
-dependencies to run the web app.
+1. Open `notebook/Kinnews_news_classification.ipynb` in Jupyter or Google Colab
+   (a GPU is recommended; AfroXLMR needs one).
+2. Set `DATASET = "kinnews"` and run the cells in order.
+3. The notebook cleans and splits the data, trains every model, evaluates them,
+   and saves the results to `results/kinnews/` and the best model to
+   `models/kinnews/`.
 
 ## Deployment
 
-The deployed application uses the same [`streamlit_app.py`](C:/Users/LENOVO/OneDrive/Desktop/machine%20learning/summative_NLP/streamlit_app.py)
-entry point as local development. To deploy a new copy with Streamlit
-Community Cloud:
+Deployed with Streamlit Community Cloud from this repository (`main` branch,
+main file `streamlit_app.py`, dependencies in `requirements.txt`). The app
+loads the saved model from `models/kinnews/` at startup.
 
-1. Connect the GitHub repository
-   `Umukundwa004/summative_NLP`.
-2. Select the `main` branch.
-3. Set **Main file path** to `streamlit_app.py`.
-4. Use `requirements.txt` as the dependency file.
-5. Confirm that `models/kinnews/` and its model files are present in the
-   deployed repository.
+## Existing resources vs. my own work
 
-Do not use `api/main.py` as the Streamlit main file; it is the separate
-FastAPI entry point. For a separately hosted API, set `ALLOWED_ORIGINS` to
-the permitted browser origins and optionally set `MODELS_DIR` to a custom
-model directory.
+**Existing:** the KINNEWS dataset, the pretrained AfroXLMR model
+(`Davlan/afro-xlmr-base`), and the libraries scikit-learn, PyTorch, gensim,
+Hugging Face Transformers, FastAPI, and Streamlit.
+
+**My own work:** data analysis, cleaning and the shared  data split, training and
+tuning of all models and the ensemble, experiments evaluation, and error
+analysis, the saved model, web app, API, and tests. AI tools (Copilot, ChatGPT)
+were used for code fixes and editing.
 
 ## License and data notice
- The KINNEWS
-dataset contains news articles whose copyright belongs to their original
-sources. Follow the dataset's terms and source notices when downloading,
-redistributing, or publishing derived data.
+
+For coursework and experimentation. KINNEWS articles belong to their original
+sources; follow the dataset's terms when sharing or publishing derived data.
