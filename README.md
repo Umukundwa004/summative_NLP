@@ -141,5 +141,5 @@ were used for code fixes and editing.
 
 ## License and data notice
 
-For coursework and experimentation. KINNEWS articles belong to their original
+KINNEWS articles belong to their original
 sources; follow the dataset's terms when sharing or publishing derived data.
