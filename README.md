@@ -10,7 +10,6 @@ optional FastAPI service.
 
 [youtube video](https://youtu.be/AlPnrd_C270)
 
-[github link](https://github.com/Umukundwa004/summative_NLP)
 **Other resources**
 
 - [KINNEWS dataset on Hugging Face](https://huggingface.co/datasets/andreniyongabo/kinnews_kirnews)
