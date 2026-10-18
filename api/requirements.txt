@@ -6,7 +6,3 @@ torch
 joblib
 streamlit
 pytest
-httpx
-# The notebook (Section 10) rewrites this file with the exact versions it used.
-# Add transformers and sentencepiece if you deploy the Transformer model.
-# To run the tests: pip install pytest httpx
